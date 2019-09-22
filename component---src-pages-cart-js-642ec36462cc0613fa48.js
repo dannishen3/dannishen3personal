@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{223:function(e,a,t){"use strict";t.r(a);var n=t(0),s=t.n(n),c=(t(17),t(219)),r=t(218);a.default=function(){return s.a.createElement(c.a,null,s.a.createElement(r.a,{title:"Shopping Cart"}),s.a.createElement("h1",{class:"page-title has-dash"},"Cart"),s.a.createElement("p",{class:"empty-cart-message centered-message"},"Coming soon."))}}}]);
+//# sourceMappingURL=component---src-pages-cart-js-642ec36462cc0613fa48.js.map
