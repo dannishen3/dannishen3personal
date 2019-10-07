@@ -2,8 +2,53 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import Image from "../components/image"
+
 const Header = ({ siteTitle }) => (
-  <header
+  <header>
+    <nav className="header-nav">
+      <ul>
+        <li className="selected">
+          <Link
+            to="/"
+          >
+            Catalog
+          </Link>
+        </li>
+        
+          <li>
+            <Link
+              to="/about"
+            >
+              About
+            </Link>
+          </li>
+        
+        <li>
+          <Link
+              to="/contact"
+            >
+              Contact
+          </Link>
+        </li>
+        <li>
+          <Link
+              to="/cart"
+            >
+              Cart
+          </Link>
+        </li>
+      </ul>
+    </nav>
+    <div className="branding">
+          <a href="/" title="Home">
+              <img className="store-logo" src="banner_oid3.png" alt="Danni Shen"/>
+          </a>
+    </div>
+  </header>
+)
+
+/*<header
     style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
@@ -28,8 +73,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-  </header>
-)
+  </header>*/
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
