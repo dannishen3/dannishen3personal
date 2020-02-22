@@ -12,8 +12,8 @@ const Contact = () => (
     </p>
     <p className="empty-cart-message centered-message">
     Danni Shen is an
-independent curator and writer. She has held curatorial roles at SPRING BREAK Art Show LA
-and NY and more previously at Empty Gallery, a black-cube space dedicated to time-based,
+independent curator, writer, and current Critic-in-Residence/Adjunct at MICA. She has held curatorial roles at SPRING BREAK Art Show LA
++ NY and more previously at Empty Gallery (Hong Kong), a black-cube space dedicated to time-based,
 non-object-oriented, interdisciplinary practices. She is based in New York, where she was also
 the Curatorial Fellow at Wave Hill and Curator-in-Residence at Residency Unlimited. She is a
 contributor to various publications including BOMB Magazine, The Brooklyn Rail,
