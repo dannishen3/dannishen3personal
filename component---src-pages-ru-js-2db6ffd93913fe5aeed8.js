@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{229:function(e,t,a){"use strict";a.r(t);var n=a(0),l=a.n(n),c=a(213),s=a(212);t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(s.a,{title:"Residency Unlimited"}),l.a.createElement("div",{class:"custom-page"},l.a.createElement("h1",{class:"custom-page-header page-title has-dash"},"Residency Unlimited"),l.a.createElement("div",{class:"custom-page-content"},l.a.createElement("p",null,"hello world"))))}}}]);
+//# sourceMappingURL=component---src-pages-ru-js-2db6ffd93913fe5aeed8.js.map
