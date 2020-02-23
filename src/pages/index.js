@@ -20,7 +20,7 @@ const IndexPage = () => (
           img_src={mica_1}
           alt_text="hover tooltip text"
           title="current"
-          description="Critic-in-Residence @MICA"
+          description="Critic-in-Residence @MICA (SPRING 2020)"
           href="current"
         />&nbsp;&nbsp;
       <ImageLink
@@ -35,8 +35,8 @@ const IndexPage = () => (
         <ImageLink
           img_src={RU_1}
           alt_text="hover tooltip text"
-          title="ART3 Gallery: Common Place"
-          description="Residency Unlimited"
+          title="ART 3 Gallery: Common Place"
+          description="Residency Unlimited (2018)"
           href="RU"
         />&nbsp;&nbsp;
       <ImageLink
