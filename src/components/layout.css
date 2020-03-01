@@ -857,6 +857,9 @@ header .branding > a {
     transform: none !important;
     -webkit-transform: none !important;
   }
+  .product-list-item-link {
+    text-decoration: none;
+  }
 }
 
 .product-list-item-container {
