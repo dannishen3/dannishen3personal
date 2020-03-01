@@ -11,11 +11,11 @@ import { css } from 'emotion'
 
 const imageStyle = css`
   width: 25%;
+  display: inline-block;
+  margin-right: 25px;
   height: auto;
 `;
 const imageRow = css`
-  display: flex;
-  flex: 1;
   justify-content: space-between;
 `;
 

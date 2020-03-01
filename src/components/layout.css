@@ -841,8 +841,21 @@ header .branding > a {
 }
 @media screen and (max-width: 767px) {
   .product-list-item {
-    padding: 0 10px 50px 10px;
-    width:  50% ;
+    /* padding: 0 10px 50px 10px; */
+    /* width:  50% ; */
+  }
+  .product-list-item {
+    width: 50%;
+    padding: 0;
+  }
+  .product-list-item-container {
+    display: none !important;
+  }
+  .product-list-image {
+    left: 0;
+    position: static !important;
+    transform: none !important;
+    -webkit-transform: none !important;
   }
 }
 
@@ -1292,6 +1305,7 @@ h1, h2, h3, h4, h5 {
 .main-images-container {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 
