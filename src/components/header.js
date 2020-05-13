@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         
           <li>
             <Link
-              to="/about"
+              to="/text"
             >
               text
             </Link>
@@ -26,9 +26,9 @@ const Header = ({ siteTitle }) => (
         
         <li>
           <Link
-              to="/bio_cv"
+              to="/about"
             >
-              bio_cv
+              about
           </Link>
         </li>
         <li>
@@ -36,6 +36,13 @@ const Header = ({ siteTitle }) => (
               to="/image"
             >
               image
+          </Link>
+        </li>
+        <li>
+          <Link
+              to="/pppp"
+            >
+              PPPP
           </Link>
         </li>
       </ul>

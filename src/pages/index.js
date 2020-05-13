@@ -1,7 +1,7 @@
 import React from "react"
 import mica_1 from '../images/mica_1.jpg';
 import eldridge_1 from '../images/eldridge_1.jpg';
-import RU_1 from '../images/RU_1.jpeg';
+import RU_1 from '../images/RU1.jpg';
 import EG_1 from '../images/EG_1.jpg';
 // import { Link } from "gatsby"
 
@@ -27,7 +27,7 @@ const IndexPage = () => (
           img_src={eldridge_1}
           alt_text="hover tooltip text"
           title="upcoming"
-          description="Curator: 601artspace, Herkimer Pl., left.gallery"
+          description="Collabrative Survival @601artspace (2020)"
           href="upcoming"
         />
       </div>
@@ -42,9 +42,9 @@ const IndexPage = () => (
       <ImageLink
           img_src={EG_1}
           alt_text="hover tooltip text"
-          title="previous"
-          description="SPRING/BREAK, Empty Gallery, Wave Hill, etc."
-          href="previous"
+          title="Empty Gallery "
+          description="New York / Hong Kong (2017-18)"
+          href="EG"
         />
         </div>
   </Layout>

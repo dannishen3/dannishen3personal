@@ -6,9 +6,9 @@ import SEO from "src/components/seo"
 const Page = () => {
     return (
         <Layout>
-            <SEO title="previous" />
+            <SEO title="EG" />
             <div class="custom-page">
-                <h1 class="custom-page-header page-title has-dash">Previous</h1>
+                <h1 class="custom-page-header page-title has-dash">EG</h1>
                 <div class="custom-page-content">
                     <p>hello world</p>
                 </div>
