@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{223:function(e,a,t){"use strict";t.r(a);var n=t(0),c=t.n(n),l=t(205),s=t(204);a.default=function(){return c.a.createElement(l.a,null,c.a.createElement(s.a,{title:"upcoming"}),c.a.createElement("div",{class:"custom-page"},c.a.createElement("h1",{class:"custom-page-header page-title has-dash"},"Upcoming"),c.a.createElement("div",{class:"custom-page-content"},c.a.createElement("p",null,"hello world"))))}}}]);
-//# sourceMappingURL=component---src-pages-upcoming-js-0e105cad4b992a403212.js.map
