@@ -1,0 +1,297 @@
+@import 'variables'
+
+#instant-checkout-button
+  margin-top: 12px
+
+#product_page
+  .footer-nav
+    border: none
+
+  .related-products-container.under_image + footer .footer-nav
+    border-top: 1px solid $border-color
+
+.product-page
+  padding-bottom: 30px
+  position: relative
+
+  &:before, &:after
+    content: ''
+    display: table
+    clear: both
+
+  .product-page-headings
+    float: #{"{% if theme.product_page_layout == 'images_left_details_right' %}right{% else %}left{% endif %}"}
+    max-width: 35%
+    padding-right: #{"{% if theme.product_page_layout == 'images_left_details_right' %}0{% else %}40px{% endif %}"}
+    padding-left: #{"{% if theme.product_page_layout == 'images_left_details_right' %}40px{% else %}0{% endif %}"}
+    width: 100%
+
+    @media screen and (max-width: $break-medium)
+      max-width: 40%
+
+    @media screen and (max-width: $break-small)
+      float: none
+      max-width: 100%
+      padding: 0
+
+  .product-title
+    margin-bottom: $luna-base * 3
+    text-align: center
+
+  .product-price
+    font-family: $secondary-font
+    margin-bottom: $luna-base * 4
+    text-align: center
+    font-size: $luna-font-base-px + 7
+    font-weight: normal
+    line-height: 1.4em
+
+  .product-status
+    color: $secondary-text-color
+    display: block
+    font-family: $secondary-font
+    font-size: $luna-font-base-px
+    font-style: italic
+    margin-bottom: $luna-base * 2
+    text-align: center
+    vertical-align: top
+
+  .product-details
+    clear: #{"{% if theme.product_page_layout == 'images_left_details_right' %}right{% else %}left{% endif %}"}
+    float: #{"{% if theme.product_page_layout == 'images_left_details_right' %}right{% else %}left{% endif %}"}
+    max-width: 35%
+    padding-right: #{"{% if theme.product_page_layout == 'images_left_details_right' %}0{% else %}24px{% endif %}"}
+    padding-left: #{"{% if theme.product_page_layout == 'images_left_details_right' %}24px{% else %}0{% endif %}"}
+    width: 100%
+
+    @media screen and (max-width: $break-medium)
+      max-width: 40%
+      padding: 0
+
+    @media screen and (max-width: $break-small)
+      float: none
+      max-width: 100%
+      padding: 0
+
+    &:last-child
+      margin-bottom: 0
+
+  .add-to-cart-button
+    display: block
+    width: 100%
+
+  .reset-selection-button-container
+    text-align: center
+    width: 100%
+
+  button.reset-selection-button
+    display: none
+    height: auto
+    max-width: 100%
+    line-height: normal
+    margin: 20px auto 0
+    padding: 4px
+    width: auto
+    font-size: $luna-font-base-px - 2
+
+  .product-description
+    font-family: $secondary-font
+    font-size: $luna-font-base-px
+    letter-spacing: normal
+    line-height: 1.5em
+    margin-bottom: $luna-base * 4
+
+    a
+      color: $secondary-text-color
+      text-decoration: underline
+
+      &:hover, &:focus
+        color: $links-rollover-color
+
+    ol, ul
+      padding-left: 1em
+
+    img, iframe
+      max-width: 100%
+
+  .product-images
+    float: #{"{% if theme.product_page_layout == 'images_left_details_right' %}left{% else %}right{% endif %}"}
+    max-width: 63%
+    padding-left: #{"{% if theme.product_page_layout == 'images_left_details_right' %}0{% else %}24px{% endif %}"}
+    padding-right: #{"{% if theme.product_page_layout == 'images_left_details_right' %}24px{% else %}0{% endif %}"}
+    position: relative
+    width: 100%
+
+    @media screen and (max-width: $break-medium)
+      max-width: 58%
+
+    @media screen and (max-width: $break-small)
+      float: none
+      max-width: 100%
+      padding: 0
+
+  .product-image
+    border-radius: $border-radius
+    display: block
+    margin-bottom: 32px
+    max-width: 100%
+    width: 100%
+
+  .social-buttons
+    border: 1px solid $border-color
+    font-family: $secondary-font
+    font-size: 14px
+    list-style: none
+    margin: $luna-base * 4 0 0
+    padding: 0
+    text-transform: uppercase
+
+    li
+      +flexbox
+      +justify-content(center)
+      +align-items(center)
+      border-bottom: 1px solid $border-color
+      height: 54px
+      overflow: hidden
+      position: relative
+      text-align: center
+
+      .social-title
+        display: block
+        position: absolute
+        width: 100%
+
+      .social-action
+        opacity: 0
+        position: relative
+        visibility: hidden
+
+      &:hover
+        .social-title
+          display: none
+
+        .social-action
+          opacity: 1
+          visibility: visible
+
+      @media screen and (max-width: $break-small)
+        .social-title
+          display: none
+
+        .social-action
+          opacity: 1
+          visibility: visible
+
+      &:last-child
+        border-bottom: 0px
+
+.similar-product-list
+  +justify-content(flex-start)
+
+  .product-list-item
+    width: 33.33%
+
+    @media screen and (max-width: $break-small)
+      width: #{"{% if theme.max_products_per_row_mobile == 2 %} 50% {% else %} 100% {% endif %}"}
+
+.similar-products-header
+  +flexbox
+  +align-items(center)
+  padding: $luna-base * 3 0
+  margin-top: $luna-base * 2
+
+  @media screen and (max-width: $break-small)
+    margin-top: 0
+    padding-bottom: $luna-base
+
+  .similar-products-title
+    font-size: $luna-font-base-px + 8
+    text-transform: uppercase
+
+  .prev-next-products
+    +flexbox
+    border: none
+    font-size: $luna-font-base-px - 1
+    padding: 0
+
+    @media screen and (max-width: $break-small)
+      display: none
+
+.prev-next-products
+  border-bottom: 1px solid $border-color
+  +flexbox
+  +justify-content(center)
+  font-family: $secondary-font
+  font-size: $luna-font-base-px - 1
+  list-style: none
+  margin: 0
+  margin-left: auto
+  padding: $luna-base * 3 0
+
+  li:not(:last-child):after
+    content: "/"
+    padding: 0 8px
+
+  a
+    text-decoration: underline
+    padding: $luna-base $luna-base
+
+  &.with-related
+    display: none
+
+    @media screen and (max-width: $break-small)
+      border-top: 1px solid $border-color
+      +flexbox
+
+.product-form select span, .product-form select span option
+  display: none
+  opacity: 0
+  visibility: hidden
+
+.product-inventory
+  border-top: 1px solid $border-color
+  margin: $luna-base * 4 0 $luna-base * 2
+  padding: $luna-base * 2 0
+
+  .product-inventory-header
+    color: $secondary-font
+    margin-bottom: $luna-base * 3
+    text-transform: uppercase
+    font-size: $luna-font-base-px - 1
+    text-align: center
+
+.inventory-bars
+  font-family: $secondary-font
+  list-style: none
+  margin: 0
+  padding: 0
+
+  li
+    margin-bottom: $luna-base * 2 + 2
+
+  .option-name
+    margin-bottom: $luna-base / 2
+    font-size: $luna-font-base-px - 1
+    text-transform: none
+
+  .inventory-bar
+    background-color: $border-color
+    height: 2px
+    position: relative
+    width: 100%
+
+  .inventory-percentage
+    background-color: $border-color
+    display: block
+    height: 3px
+    position: absolute
+    top: 2px
+
+  .inventory-label
+    color: $secondary-text-color
+    font-size: 12px
+    display: none
+    position: absolute
+    right: 0
+    top: -16px
+
