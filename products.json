@@ -12,103 +12,39 @@
       "on_sale": false,
       "created_at": "2019-09-30T14:15:28.000Z",
       "description": "gold hoop (~1inch d)",
-      "has_option_groups": true,
+      "has_option_groups": false,
       "options": [
         {
-          "id": 210267551,
-          "name": "Small / Red / Short",
-          "price": 14,
+          "id": 31857742,
+          "name": "Small",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 20036,
-              "name": "Small",
-              "option_group_id": 2990
-            },
-            {
-              "id": 20045,
-              "name": "Red",
-              "option_group_id": 2993
-            },
-            {
-              "id": 20051,
-              "name": "Short",
-              "option_group_id": 2996
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 210267707,
-          "name": "Small / Blue / Long",
-          "price": 14,
+          "id": 31857745,
+          "name": "Medium",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 20036,
-              "name": "Small",
-              "option_group_id": 2990
-            },
-            {
-              "id": 20048,
-              "name": "Blue",
-              "option_group_id": 2993
-            },
-            {
-              "id": 20054,
-              "name": "Long",
-              "option_group_id": 2996
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 210267710,
-          "name": "Medium / Red / Short",
-          "price": 14,
+          "id": 31857748,
+          "name": "Large",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 20039,
-              "name": "Medium",
-              "option_group_id": 2990
-            },
-            {
-              "id": 20045,
-              "name": "Red",
-              "option_group_id": 2993
-            },
-            {
-              "id": 20051,
-              "name": "Short",
-              "option_group_id": 2996
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 210267713,
-          "name": "Medium / Red / Long",
-          "price": 14,
+          "id": 31857751,
+          "name": "X-Large",
+          "price": 27,
           "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 20039,
-              "name": "Medium",
-              "option_group_id": 2990
-            },
-            {
-              "id": 20045,
-              "name": "Red",
-              "option_group_id": 2993
-            },
-            {
-              "id": 20054,
-              "name": "Long",
-              "option_group_id": 2996
-            }
-          ]
+          "has_custom_price": true,
+          "option_group_values": []
         }
       ],
       "images": [
@@ -198,871 +134,39 @@
       "on_sale": false,
       "created_at": "2019-07-31T21:06:34.000Z",
       "description": "gold hoop (~1inch d) - marbled clay + glass bead",
-      "has_option_groups": true,
+      "has_option_groups": false,
       "options": [
         {
-          "id": 205951514,
-          "name": "White / Small / Short",
-          "price": 19.99,
+          "id": 31857742,
+          "name": "Small",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 205951571,
-          "name": "Green / Small / Longer",
-          "price": 19.99,
+          "id": 31857745,
+          "name": "Medium",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 205951574,
-          "name": "Black / Small / Longer",
-          "price": 19.99,
+          "id": 31857748,
+          "name": "Large",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 205951577,
-          "name": "White / Medium / Longer",
-          "price": 19.99,
+          "id": 31857751,
+          "name": "X-Large",
+          "price": 27,
           "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951580,
-          "name": "Green / Medium / Longer",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951583,
-          "name": "Black / Medium / Longer",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951586,
-          "name": "White / Large / Longer",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951589,
-          "name": "Green / Large / Longer",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951592,
-          "name": "Black / Large / Longer",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951595,
-          "name": "White / Small / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951598,
-          "name": "Green / Small / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951601,
-          "name": "Black / Small / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951604,
-          "name": "White / Medium / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951607,
-          "name": "Green / Medium / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951610,
-          "name": "Black / Medium / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951613,
-          "name": "White / Large / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951616,
-          "name": "Green / Large / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951568,
-          "name": "White / Small / Longer",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951565,
-          "name": "Black / Large / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951517,
-          "name": "Green / Small / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951520,
-          "name": "Black / Small / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951523,
-          "name": "White / Medium / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951526,
-          "name": "Green / Medium / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951529,
-          "name": "Black / Medium / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951532,
-          "name": "White / Large / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951535,
-          "name": "Green / Large / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951538,
-          "name": "Black / Large / Short",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 203,
-              "name": "Short",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951541,
-          "name": "White / Small / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951544,
-          "name": "Green / Small / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951547,
-          "name": "Black / Small / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 194,
-              "name": "Small",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951550,
-          "name": "White / Medium / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951553,
-          "name": "Green / Medium / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951556,
-          "name": "Black / Medium / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951559,
-          "name": "White / Large / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 185,
-              "name": "White",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951562,
-          "name": "Green / Large / Long",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 188,
-              "name": "Green",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "option_group_id": 65
-            }
-          ]
-        },
-        {
-          "id": 205951619,
-          "name": "Black / Large / Longest",
-          "price": 19.99,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 191,
-              "name": "Black",
-              "option_group_id": 59
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "option_group_id": 62
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "option_group_id": 65
-            }
-          ]
+          "has_custom_price": true,
+          "option_group_values": []
         }
       ],
       "images": [
@@ -1281,27 +385,35 @@
       "has_option_groups": false,
       "options": [
         {
-          "id": 31857925,
+          "id": 31857742,
           "name": "Small",
-          "price": 32,
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
           "option_group_values": []
         },
         {
-          "id": 31857928,
+          "id": 31857745,
           "name": "Medium",
-          "price": 32,
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
           "option_group_values": []
         },
         {
-          "id": 31857931,
+          "id": 31857748,
           "name": "Large",
-          "price": 32,
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
+          "option_group_values": []
+        },
+        {
+          "id": 31857751,
+          "name": "X-Large",
+          "price": 27,
+          "sold_out": false,
+          "has_custom_price": true,
           "option_group_values": []
         }
       ],
@@ -1353,178 +465,39 @@
       "on_sale": true,
       "created_at": "2013-03-26T16:46:17.000Z",
       "description": "gold hoop (1inch d) - marbled clay + jade bead",
-      "has_option_groups": true,
+      "has_option_groups": false,
       "options": [
         {
-          "id": 205056341,
-          "name": "Small / Black w/ white",
-          "price": 32,
+          "id": 31857742,
+          "name": "Small",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 161,
-              "name": "Small",
-              "option_group_id": 53
-            },
-            {
-              "id": 176,
-              "name": "Black w/ white",
-              "option_group_id": 56
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 205056344,
-          "name": "Medium / Black w/ white",
-          "price": 32,
+          "id": 31857745,
+          "name": "Medium",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 164,
-              "name": "Medium",
-              "option_group_id": 53
-            },
-            {
-              "id": 176,
-              "name": "Black w/ white",
-              "option_group_id": 56
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 205056350,
-          "name": "XL / Black w/ white",
-          "price": 32,
+          "id": 31857748,
+          "name": "Large",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 170,
-              "name": "XL",
-              "option_group_id": 53
-            },
-            {
-              "id": 176,
-              "name": "Black w/ white",
-              "option_group_id": 56
-            }
-          ]
+          "option_group_values": []
         },
         {
-          "id": 205056353,
-          "name": "XXL / Black w/ white",
-          "price": 32,
+          "id": 31857751,
+          "name": "X-Large",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": true,
-          "option_group_values": [
-            {
-              "id": 173,
-              "name": "XXL",
-              "option_group_id": 53
-            },
-            {
-              "id": 176,
-              "name": "Black w/ white",
-              "option_group_id": 56
-            }
-          ]
-        },
-        {
-          "id": 205056356,
-          "name": "Small / White w/ black",
-          "price": 32,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 161,
-              "name": "Small",
-              "option_group_id": 53
-            },
-            {
-              "id": 179,
-              "name": "White w/ black",
-              "option_group_id": 56
-            }
-          ]
-        },
-        {
-          "id": 205056359,
-          "name": "Medium / White w/ black",
-          "price": 32,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 164,
-              "name": "Medium",
-              "option_group_id": 53
-            },
-            {
-              "id": 179,
-              "name": "White w/ black",
-              "option_group_id": 56
-            }
-          ]
-        },
-        {
-          "id": 205056362,
-          "name": "Large / White w/ black",
-          "price": 32,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 167,
-              "name": "Large",
-              "option_group_id": 53
-            },
-            {
-              "id": 179,
-              "name": "White w/ black",
-              "option_group_id": 56
-            }
-          ]
-        },
-        {
-          "id": 205056365,
-          "name": "XL / White w/ black",
-          "price": 32,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": [
-            {
-              "id": 170,
-              "name": "XL",
-              "option_group_id": 53
-            },
-            {
-              "id": 179,
-              "name": "White w/ black",
-              "option_group_id": 56
-            }
-          ]
-        },
-        {
-          "id": 205056368,
-          "name": "XXL / White w/ black",
-          "price": 32,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": [
-            {
-              "id": 173,
-              "name": "XXL",
-              "option_group_id": 53
-            },
-            {
-              "id": 179,
-              "name": "White w/ black",
-              "option_group_id": 56
-            }
-          ]
+          "option_group_values": []
         }
       ],
       "images": [
@@ -1630,35 +603,35 @@
       "has_option_groups": false,
       "options": [
         {
-          "id": 31858030,
+          "id": 31857742,
           "name": "Small",
-          "price": 29.99,
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
           "option_group_values": []
         },
         {
-          "id": 31858033,
+          "id": 31857745,
           "name": "Medium",
-          "price": 29.99,
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
           "option_group_values": []
         },
         {
-          "id": 31858036,
+          "id": 31857748,
           "name": "Large",
-          "price": 29.99,
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
           "option_group_values": []
         },
         {
-          "id": 31858039,
+          "id": 31857751,
           "name": "X-Large",
-          "price": 29.99,
+          "price": 27,
           "sold_out": false,
-          "has_custom_price": false,
+          "has_custom_price": true,
           "option_group_values": []
         }
       ],
@@ -1713,19 +686,35 @@
       "has_option_groups": false,
       "options": [
         {
-          "id": 208339127,
-          "name": "White",
-          "price": 19.99,
+          "id": 31857742,
+          "name": "Small",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
           "option_group_values": []
         },
         {
-          "id": 208339130,
-          "name": "Gray",
-          "price": 19.99,
+          "id": 31857745,
+          "name": "Medium",
+          "price": 27,
           "sold_out": false,
           "has_custom_price": false,
+          "option_group_values": []
+        },
+        {
+          "id": 31857748,
+          "name": "Large",
+          "price": 27,
+          "sold_out": false,
+          "has_custom_price": false,
+          "option_group_values": []
+        },
+        {
+          "id": 31857751,
+          "name": "X-Large",
+          "price": 27,
+          "sold_out": false,
+          "has_custom_price": true,
           "option_group_values": []
         }
       ],
