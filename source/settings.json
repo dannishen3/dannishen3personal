@@ -4,6 +4,7 @@
   "images": [
     {
       "variable": "header",
+      "url": "/product_images/nu_classics_round.jpg",
       "label": "Header image",
       "description": "Transparent background recommended"
     },

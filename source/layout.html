@@ -41,7 +41,7 @@
 
         <div class="branding">
           <a href="/" title="Home">
-            <img class="store-logo" srcset="nu_classics_round.jpg" alt="Nu Classics Logo">
+            <img class="store-logo" srcset="{{ '/product_images/nu_classics_round.jpg' | constrain: 1068, 200 }}, {{ '/product_images/nu_classics_round.jpg' | constrain: 2136, 400 }} 2x" src="{{ '/product_images/nu_classics_round.jpg' | constrain: 1068, 200 }}" alt="{{ store.name }} Home">
           </a>
         </div>
       </div>
