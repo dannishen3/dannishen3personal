@@ -35,13 +35,23 @@
               <li{% if page.full_url contains page.url %} class="selected"{% endif %}>{{ page | link_to }}</li>
             {% endfor %}
             <li{% if page.full_url contains '/contact' %} class="selected"{% endif %}><a href="/contact">About</a></li>
-            <li{% if page.full_url contains '/cart' %} class="selected"{% endif %}><a href="/cart">Cart</a></li>
+            <!-- <li{% if page.full_url contains '/cart' %} class="selected"{% endif %}><a href="/cart">Cart</a></li> -->
+            <li{% if page.full_url contains '/cart' %} class="selected"{% endif %}>
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <!-- <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
+                <button class="fake-anchor" type="submit" value="checkout" border="0" name="Checkout" alt="PayPal - The safer, easier way to pay online!">Checkout</button></li>
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </li>
+              
           </ul>
         </nav>
 
         <div class="branding">
           <a href="/" title="Home">
-            <img class="store-logo" srcset="{{ '/product_images/nu_classics_round.jpg' | constrain: 1068, 200 }}, {{ '/product_images/nu_classics_round.jpg' | constrain: 2136, 400 }} 2x" src="{{ '/product_images/nu_classics_round.jpg' | constrain: 1068, 200 }}" alt="{{ store.name }} Home">
+            <img class="store-logo" srcset="{{ '/product_images/nu_classics_round.jpg' | constrain: 1168, 200 }}, {{ '/product_images/nu_classics_round.jpg' | constrain: 2136, 400 }} 2x" src="{{ '/product_images/nu_classics_round.jpg' | constrain: 1068, 200 }}" alt="{{ store.name }} Home">
           </a>
         </div>
       </div>
@@ -53,8 +63,17 @@
           <li{% if page.full_url contains '/contact' %} class="selected"{% endif %}>
             <a href="/contact">About</a>
           </li>
-          <li{% if page.full_url contains '/cart' %} class="selected"{% endif %}>
+          <!-- <li{% if page.full_url contains '/cart' %} class="selected"{% endif %}>
             <a href="/cart">Cart</a>
+          </li> -->
+          <li{% if page.full_url contains '/cart' %} class="selected"{% endif %}>
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <!-- <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
+              <button class="fake-anchor" type="submit" value="checkout" border="0" name="Checkout" alt="PayPal - The safer, easier way to pay online!">Checkout</button></li>
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
           </li>
         </ul>
       </nav>
@@ -149,8 +168,8 @@
                         <div class="product-list-thumb-info-headers">
                           <div class="product-list-thumb-name">{{ category_product.name }}</div>
                           <div class="product-list-thumb-price">
-                            {% if category_product.variable_pricing %}
-                              {{ category_product.min_price | money: theme.money_format }} - {{ category_product.max_price | money: theme.money_format }}
+                            {% if category_product.xvariable_pricing %}
+                              {{ category_product.xmin_price | money: theme.money_format }} - {{ category_product.xmax_price | money: theme.money_format }}
                             {% else %}
                               {{ category_product.default_price | money: theme.money_format }}
                             {% endif %}
@@ -203,7 +222,16 @@
               <li>{{ page | link_to }}</li>
             {% endfor %}
             <li><a href="/contact">About</a></li>
-            <li><a href="/cart">Cart</a></li>
+            <!-- <li><a href="/cart">Cart</a></li> -->
+            <li>
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <!-- <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
+                <button class="fake-anchor" type="submit" value="checkout" border="0" name="Checkout" alt="PayPal - The safer, easier way to pay online!">Checkout</button></li>
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </li>
             {% if theme.show_search %}
               <li>
                 <form class="search-form" name="search" action="/products" method="get" accept-charset="utf8">
@@ -240,7 +268,6 @@
           {% if store.website != blank %}
             <a href="{{ store.website }}" class="button back-to-site" class="button">Back to site</a>
           {% endif %}
-          <div class="badge">{{ bigcartel_credit }}</div>
         </nav>
       </div>
     </footer>

@@ -82,8 +82,8 @@
                   <div class="product-list-thumb-info-headers">
                     <div class="product-list-thumb-name">{{ product.name }}</div>
                     <div class="product-list-thumb-price">
-                      {% if product.variable_pricing %}
-                        {{ product.min_price | money: theme.money_format }} - {{ product.max_price | money: theme.money_format }}
+                      {% if product.xvariable_pricing %}
+                        {{ product.xmin_price | money: theme.money_format }} - {{ product.xmax_price | money: theme.money_format }}
                       {% else %}
                         {{ product.default_price | money: theme.money_format }}
                       {% endif %}

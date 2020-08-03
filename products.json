@@ -11,40 +11,22 @@
       "status": "active",
       "on_sale": false,
       "created_at": "2019-09-30T14:15:28.000Z",
-      "description": "gold hoop (~1inch d)",
+      "description": "25mm: gold-plated / 14mm: gold-plated, hypoallergenic, non-tarnish",
       "has_option_groups": false,
+      "paypal_id": "G67Y3WGFBH9JG",
+      "options_label": "hoop type",
+      "options_value": "hoop type",
+      "xvariable_pricing": true,
+      "xmin_price": 27.00,
+      "xmax_price": 30.00,
       "options": [
         {
-          "id": 31857742,
-          "name": "Small",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
+          "label": "non-hypoallergenic (25mm) $27.00 USD",
+          "value": "non-hypoallergenic (25mm)"
         },
         {
-          "id": 31857745,
-          "name": "Medium",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857748,
-          "name": "Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857751,
-          "name": "X-Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": []
+          "label": "hypoallergenic (14mm) $30.00 USD",
+          "value": "hypoallergenic (14mm)"
         }
       ],
       "images": [
@@ -61,65 +43,7 @@
       ],
       "artists": [],
       "categories": [],
-      "option_groups": [
-        {
-          "id": 2990,
-          "name": "Size",
-          "position": 0,
-          "values": [
-            {
-              "id": 20036,
-              "name": "Small",
-              "position": 0,
-              "option_group_id": 2990
-            },
-            {
-              "id": 20039,
-              "name": "Medium",
-              "position": 0,
-              "option_group_id": 2990
-            }
-          ]
-        },
-        {
-          "id": 2993,
-          "name": "Color",
-          "position": 0,
-          "values": [
-            {
-              "id": 20045,
-              "name": "Red",
-              "position": 0,
-              "option_group_id": 2993
-            },
-            {
-              "id": 20048,
-              "name": "Blue",
-              "position": 0,
-              "option_group_id": 2993
-            }
-          ]
-        },
-        {
-          "id": 2996,
-          "name": "Style",
-          "position": 0,
-          "values": [
-            {
-              "id": 20051,
-              "name": "Short",
-              "position": 0,
-              "option_group_id": 2996
-            },
-            {
-              "id": 20054,
-              "name": "Long",
-              "position": 0,
-              "option_group_id": 2996
-            }
-          ]
-        }
-      ]
+      "option_groups": []
     },
     {
       "id": 56776628,
@@ -133,40 +57,22 @@
       "status": "active",
       "on_sale": false,
       "created_at": "2019-07-31T21:06:34.000Z",
-      "description": "gold hoop (~1inch d) - marbled clay + glass bead",
+      "description": "25mm: gold-plated / 14mm: gold-plated, hypoallergenic, non-tarnish",
       "has_option_groups": false,
+      "paypal_id": "4V6SY487QEWKN",
+      "options_label": "hoop type",
+      "options_value": "hoop type",
+      "xvariable_pricing": true,
+      "xmin_price": 32.00,
+      "xmax_price": 35.00,
       "options": [
         {
-          "id": 31857742,
-          "name": "Small",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
+          "label": "non-hypoallergenic (25mm) $32.00 USD",
+          "value": "non-hypoallergenic (25mm)"
         },
         {
-          "id": 31857745,
-          "name": "Medium",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857748,
-          "name": "Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857751,
-          "name": "X-Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": []
+          "label": "hypoallergenic (14mm) $35.00 USD",
+          "value": "hypoallergenic (14mm)"
         }
       ],
       "images": [
@@ -181,111 +87,9 @@
           "height": 666
         }
       ],
-      "artists": [
-        {
-          "id": 188734,
-          "name": "Beeteeth",
-          "permalink": "beeteeth",
-          "url": "/artist/beeteeth"
-        },
-        {
-          "id": 188740,
-          "name": "Robot with Wings",
-          "permalink": "robot-with-wings",
-          "url": "/artist/robot-with-wings"
-        }
-      ],
-      "categories": [
-        {
-          "id": 4922137,
-          "name": "Accessories",
-          "permalink": "accessories",
-          "url": "/category/accessories"
-        }
-      ],
-      "option_groups": [
-        {
-          "id": 59,
-          "name": "Color",
-          "position": 0,
-          "values": [
-            {
-              "id": 185,
-              "name": "White",
-              "position": 0,
-              "option_group_id": 59
-            },
-            {
-              "id": 188,
-              "name": "Green",
-              "position": 0,
-              "option_group_id": 59
-            },
-            {
-              "id": 191,
-              "name": "Black",
-              "position": 0,
-              "option_group_id": 59
-            }
-          ]
-        },
-        {
-          "id": 62,
-          "name": "Size",
-          "position": 0,
-          "values": [
-            {
-              "id": 194,
-              "name": "Small",
-              "position": 0,
-              "option_group_id": 62
-            },
-            {
-              "id": 197,
-              "name": "Medium",
-              "position": 0,
-              "option_group_id": 62
-            },
-            {
-              "id": 200,
-              "name": "Large",
-              "position": 0,
-              "option_group_id": 62
-            }
-          ]
-        },
-        {
-          "id": 65,
-          "name": "Handle",
-          "position": 0,
-          "values": [
-            {
-              "id": 203,
-              "name": "Short",
-              "position": 0,
-              "option_group_id": 65
-            },
-            {
-              "id": 206,
-              "name": "Long",
-              "position": 0,
-              "option_group_id": 65
-            },
-            {
-              "id": 209,
-              "name": "Longer",
-              "position": 0,
-              "option_group_id": 65
-            },
-            {
-              "id": 212,
-              "name": "Longest",
-              "position": 0,
-              "option_group_id": 65
-            }
-          ]
-        }
-      ]
+      "artists": [],
+      "categories": [],
+      "option_groups": []
     },
     {
       "id": 10180984,
@@ -299,40 +103,22 @@
       "status": "active",
       "on_sale": false,
       "created_at": "2013-03-26T22:40:28.000Z",
-      "description": "gold hoop (~1inch d) - white clay",
+      "description": "25mm: gold-plated / 14mm: gold-plated, hypoallergenic, non-tarnish",
       "has_option_groups": false,
+      "paypal_id": "HS6PULWJKDVCA",
+      "options_label": "hoop type",
+      "options_value": "hoop type",
+      "xvariable_pricing": true,
+      "xmin_price": 25.00,
+      "xmax_price": 28.00,
       "options": [
         {
-          "id": 31857742,
-          "name": "Small",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
+          "label": "non-hypoallergenic (25mm) $25.00 USD",
+          "value": "non-hypoallergenic (25mm)"
         },
         {
-          "id": 31857745,
-          "name": "Medium",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857748,
-          "name": "Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857751,
-          "name": "X-Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": []
+          "label": "hypoallergenic (14mm) $28.00 USD",
+          "value": "hypoallergenic (14mm)"
         }
       ],
       "images": [
@@ -352,22 +138,8 @@
           "height": 666
         }
       ],
-      "artists": [
-        {
-          "id": 188734,
-          "name": "Beeteeth",
-          "permalink": "beeteeth",
-          "url": "/artist/beeteeth"
-        }
-      ],
-      "categories": [
-        {
-          "id": 4922005,
-          "name": "Hoodies",
-          "permalink": "hoodies",
-          "url": "/category/hoodies"
-        }
-      ],
+      "artists": [],
+      "categories": [],
       "option_groups": []
     },
     {
@@ -381,40 +153,23 @@
       "url": "/product/marble-jade-drop-i",
       "on_sale": false,
       "created_at": "2013-03-26T22:42:53.000Z",
-      "description": "gold hoop (1inch d) - marbled clay + jade bead",
+      "description": "25mm: gold-plated / 14mm: gold-plated, hypoallergenic, non-tarnish",
       "has_option_groups": false,
+      "status": "active",
+      "paypal_id": "3SETDXH6DUS4J",
+      "options_label": "hoop type",
+      "options_value": "hoop type",
+      "xvariable_pricing": true,
+      "xmin_price": 30.00,
+      "xmax_price": 33.00,
       "options": [
         {
-          "id": 31857742,
-          "name": "Small",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
+          "label": "non-hypoallergenic (25mm) $30.00 USD",
+          "value": "non-hypoallergenic (25mm)"
         },
         {
-          "id": 31857745,
-          "name": "Medium",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857748,
-          "name": "Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857751,
-          "name": "X-Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": []
+          "label": "hypoallergenic (14mm) $33.00 USD",
+          "value": "hypoallergenic (14mm)"
         }
       ],
       "images": [
@@ -427,29 +182,10 @@
           "url": "/product_images/marblejade_2.jpg",
           "width": 1000,
           "height": 666
-        },
-        {
-          "url": "/product_images/marblejade_3.jpg",
-          "width": 1000,
-          "height": 666
         }
       ],
-      "artists": [
-        {
-          "id": 188740,
-          "name": "Robot with Wings",
-          "permalink": "robot-with-wings",
-          "url": "/artist/robot-with-wings"
-        }
-      ],
-      "categories": [
-        {
-          "id": 4922005,
-          "name": "Hoodies",
-          "permalink": "hoodies",
-          "url": "/category/hoodies"
-        }
-      ],
+      "artists": [],
+      "categories": [],
       "option_groups": []
     },
     {
@@ -462,42 +198,24 @@
       "tax": 0,
       "url": "/product/marble-jade-drop-ii",
       "status": "active",
-      "on_sale": true,
+      "on_sale": false,
       "created_at": "2013-03-26T16:46:17.000Z",
-      "description": "gold hoop (1inch d) - marbled clay + jade bead",
+      "description": "only hoop option: 14mm: gold-plated, hypoallergenic, non-tarnish",
       "has_option_groups": false,
+      "paypal_id": "B5MUPN7VVSKB4",
+      "options_label": "hoop type",
+      "options_value": "hoop type",
+      "xvariable_pricing": true,
+      "xmin_price": 30.00,
+      "xmax_price": 33.00,
       "options": [
         {
-          "id": 31857742,
-          "name": "Small",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
+          "label": "non-hypoallergenic (25mm) $30.00 USD",
+          "value": "non-hypoallergenic (25mm)"
         },
         {
-          "id": 31857745,
-          "name": "Medium",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857748,
-          "name": "Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857751,
-          "name": "X-Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": []
+          "label": "hypoallergenic (14mm) $33.00 USD",
+          "value": "hypoallergenic (14mm)"
         }
       ],
       "images": [
@@ -512,80 +230,9 @@
           "height": 666
         }
       ],
-      "artists": [
-        {
-          "id": 188743,
-          "name": "I Hear It Hurts",
-          "permalink": "i-hear-it-hurts",
-          "url": "/artist/i-hear-it-hurts"
-        }
-      ],
-      "categories": [
-        {
-          "id": 4615193,
-          "name": "Tees",
-          "permalink": "tees",
-          "url": "/category/tees"
-        }
-      ],
-      "option_groups": [
-        {
-          "id": 53,
-          "name": "Size",
-          "position": 0,
-          "values": [
-            {
-              "id": 161,
-              "name": "Small",
-              "position": 0,
-              "option_group_id": 53
-            },
-            {
-              "id": 164,
-              "name": "Medium",
-              "position": 0,
-              "option_group_id": 53
-            },
-            {
-              "id": 167,
-              "name": "Large",
-              "position": 0,
-              "option_group_id": 53
-            },
-            {
-              "id": 170,
-              "name": "XL",
-              "position": 0,
-              "option_group_id": 53
-            },
-            {
-              "id": 173,
-              "name": "XXL",
-              "position": 0,
-              "option_group_id": 53
-            }
-          ]
-        },
-        {
-          "id": 56,
-          "name": "Color",
-          "position": 0,
-          "values": [
-            {
-              "id": 176,
-              "name": "Black w/ white",
-              "position": 0,
-              "option_group_id": 56
-            },
-            {
-              "id": 179,
-              "name": "White w/ black",
-              "position": 0,
-              "option_group_id": 56
-            }
-          ]
-        }
-      ]
+      "artists": [],
+      "categories": [],
+      "option_groups": []
     },
     {
       "id": 10181086,
@@ -596,43 +243,25 @@
       "default_price": 25,
       "tax": 0,
       "url": "/product/melon-slice",
-      "status": "coming-soon",
+      "status": "active",
       "on_sale": false,
       "created_at": "2013-03-26T22:44:51.000Z",
-      "description": "gold hoop (0.5inch d) translucent gradient clay",
+      "description": "25mm: gold-plated / 14mm: gold-plated, hypoallergenic, non-tarnish",
       "has_option_groups": false,
+      "paypal_id": "4PSWWYCCPLUX6",
+      "options_label": "melon size",
+      "options_value": "melon size",
+      "xvariable_pricing": true,
+      "xmin_price": 22.00,
+      "xmax_price": 22.00,
       "options": [
         {
-          "id": 31857742,
-          "name": "Small",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
+          "label": "smaller (1in length) $22.00 USD",
+          "value": "smaller (1in length)"
         },
         {
-          "id": 31857745,
-          "name": "Medium",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857748,
-          "name": "Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857751,
-          "name": "X-Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": []
+          "label": "larger (1.5in length) $22.00 USD",
+          "value": "larger (1.5in length)"
         }
       ],
       "images": [
@@ -648,26 +277,12 @@
         },
         {
           "url": "/product_images/melon_3.jpg",
-          "width": 1000,
-          "height": 666
+          "width": 666,
+          "height": 1000
         }
       ],
-      "artists": [
-        {
-          "id": 188734,
-          "name": "Beeteeth",
-          "permalink": "beeteeth",
-          "url": "/artist/beeteeth"
-        }
-      ],
-      "categories": [
-        {
-          "id": 4615193,
-          "name": "Tees",
-          "permalink": "tees",
-          "url": "/category/tees"
-        }
-      ],
+      "artists": [],
+      "categories": [],
       "option_groups": []
     },
     {
@@ -679,94 +294,21 @@
       "default_price": 170,
       "tax": 0,
       "url": "/product/floral-studies",
-      "status": "active",
+      "status": "coming-soon",
       "on_sale": false,
       "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "Handcut collage (digital prints on xuan paper) on artist paper - fully matted. With artist's seal",
+      "description": "Original works: handcut collage (prints on xuan paper) on artist paper - fully matted (archival), 11x14in. With artist's signature + seal",
       "has_option_groups": false,
-      "options": [
-        {
-          "id": 31857742,
-          "name": "Small",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857745,
-          "name": "Medium",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857748,
-          "name": "Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": false,
-          "option_group_values": []
-        },
-        {
-          "id": 31857751,
-          "name": "X-Large",
-          "price": 27,
-          "sold_out": false,
-          "has_custom_price": true,
-          "option_group_values": []
-        }
-      ],
+      "options": [],
       "images": [
         {
           "url": "/product_images/floral_1.jpeg",
           "width": 1000,
           "height": 666
-        },
-        {
-          "url": "https://assets.bigcartel.com/product_images/100024936/0000_BIG_CARTEL_PRODDY_IMG_7697.jpg",
-          "width": 1000,
-          "height": 666
-        },
-        {
-          "url": "https://assets.bigcartel.com/product_images/100024951/0000_BIG_CARTEL_PRODDY_IMG_7709.jpg",
-          "width": 1000,
-          "height": 666
-        },
-        {
-          "url": "https://assets.bigcartel.com/product_images/100024963/0000_BIG_CARTEL_PRODDY_IMG_7717.jpg",
-          "width": 1000,
-          "height": 666
-        },
-        {
-          "url": "https://assets.bigcartel.com/product_images/100024975/0000_BIG_CARTEL_PRODDY_IMG_7728.jpg",
-          "width": 1000,
-          "height": 666
         }
       ],
-      "artists": [
-        {
-          "id": 188734,
-          "name": "Beeteeth",
-          "permalink": "beeteeth",
-          "url": "/artist/beeteeth"
-        },
-        {
-          "id": 188740,
-          "name": "Robot with Wings",
-          "permalink": "robot-with-wings",
-          "url": "/artist/robot-with-wings"
-        }
-      ],
-      "categories": [
-        {
-          "id": 4922137,
-          "name": "Accessories",
-          "permalink": "accessories",
-          "url": "/category/accessories"
-        }
-      ],
+      "artists": [],
+      "categories": [],
       "option_groups": []
     }
   ]

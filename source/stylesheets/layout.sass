@@ -156,8 +156,9 @@ header
 
         a
           color: $primary-text-color
-    a
+    a, .fake-anchor
       color: $secondary-text-color
+      text-transform: uppercase
       display: block
       font-size: $luna-font-base-px - 2
       padding: $luna-base
@@ -379,13 +380,16 @@ button, a.button
         li
           border-bottom: 1px solid $border-color
 
-        a
+        a, .fake-anchor
           font-family: $secondary-font
           padding: $luna-base * 2 0
           text-align: center
           text-transform: uppercase
 
-    a
+    .fake-anchor
+      margin-top: 1px
+
+    a, .fake-anchor
       display: block
       padding: $luna-base $luna-base * 2
       text-decoration: none
@@ -617,3 +621,15 @@ a.back-to-site
   -webkit-animation-timing-function: ease-in
   animation-iteration-count: 1
   -webkit-animation-iteration-count: 1
+
+.fake-anchor
+  background-color: transparent !important
+  border: none !important
+  padding: 8px !important
+  height: inherit
+  line-height: inherit
+  color: #111111
+  text-transform: none
+  display: block
+  font-size: 14px
+  text-decoration: none
