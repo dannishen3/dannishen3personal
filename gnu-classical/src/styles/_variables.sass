@@ -1,0 +1,64 @@
+@import 'flexbox'
+
+$primary-background-color: #FFFFFF
+$secondary-background-color: #F3F3F3
+
+$primary-text-color: #111111
+$secondary-text-color: #555555
+
+$links-rollover-color: #255B8A
+
+$header-text-color: #111111
+
+$products-background-color: #000000
+
+$border-color: #b1b1b1
+
+$button-text-color: #FFFFFF
+$button-background-color: #000000
+
+$button-rollover-color: #255B8A
+
+$primary-font: "Varela Round"
+$secondary-font: "Montserrat"
+
+$luna-base: 8px
+$luna-font-base-px: 16px
+$border-radius: 4px
+
+$break-extra-large: 1500px
+$break-large: 1200px
+$break-medium: 1023px
+$break-small: 767px
+$break-extra-small: 640px
+
+@mixin all-transitions
+  +transition(.2s linear)
+
+@mixin transition($transition...)
+  -webkit-transition: #{$transition}
+  transition: #{$transition}
+
+@mixin transform($str...)
+  -webkit-transform: $str
+  transform: $str
+
+@mixin transform-origin($str...)
+  -webkit-transform-origin: $str
+  transform-origin: $str
+
+@mixin appearance($str...)
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+
+@mixin keyframes($animation...)
+  @-webkit-keyframes #{$animation}
+    @content
+
+  @keyframes #{$animation}
+    @content
+
+@mixin animation($str...)
+  -webkit-animation: $str
+  animation: $str
