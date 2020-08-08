@@ -30,7 +30,6 @@ exports.createPages = async ({ graphql, actions }) => {
             price
             status
             url
-            tax
             xmax_price
             xmin_price
             xvariable_pricing
@@ -58,8 +57,6 @@ exports.createPages = async ({ graphql, actions }) => {
         path: product.url,
         component: require.resolve("./src/components/Product.js"),
         context: {
-            // pageContent: product.content,
-            // links: product.links,
             product: product
         },
         })

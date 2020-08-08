@@ -34,16 +34,9 @@ const Layout = ({ children, bodyAttributes }) => {
       <Helmet
         bodyAttributes={bodyAttributes}
       >
-      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,700|Varela+Round"/>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,700|Varela+Round"/>
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
-      {/* <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      > */}
         <main class="main" id="main">
           <div class="fade-in wrapper">
           {children}
