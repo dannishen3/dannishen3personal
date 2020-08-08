@@ -34,9 +34,9 @@ const Header = ({ siteTitle }) => {
             </ul>
           </nav>
           <div class="branding">
-            <a href="/" title="Home">
+            <Link to="/" title="home">
               <img class="store-logo" srcSet={data.placeholderImage?.childImageSharp.fluid.srcSet} src={data.placeholderImage?.childImageSharp.fluid.src} alt="Danni Studio Home"/>
-            </a>
+            </Link>
           </div>
         </div>
         <nav class="header-nav mobile-nav" aria-label="Mobile Main" role="navigation">
