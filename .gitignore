@@ -1,7 +1,10 @@
 .bundle
 .DS_Store
 .sass-cache
-.dugway.json
+node_modules
+
+.cache/
+public/
 
 build
 tmp
