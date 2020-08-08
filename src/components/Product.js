@@ -19,7 +19,7 @@ export default ({pageContext}) => {
     }
 
     const aside = (
-        <aside class="related-products-container wrapper" role="complementary" aria-label="Related products">
+        <aside class="related-products-container wrapper" aria-label="Related products">
           {(!!previous_product || !!next_product) && (
             <ul class="prev-next-products">
             {!!previous_product && <li><Link to={previous_product}>Previous Product</Link></li>}
