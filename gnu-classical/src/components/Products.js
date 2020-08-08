@@ -11,9 +11,10 @@ function getProductStatus(product) {
         }
     } else if (product.status === 'sold-out') {
         product_status = 'Sold out';
-    } else if (product.status === 'sold-out') {
+    } else if (product.status === 'coming-soon') {
         product_status = 'Coming soon';
     }
+    return product_status;
 }
 
 export default ({products}) => {
@@ -23,7 +24,6 @@ export default ({products}) => {
     // const product_image_constrain_height_large = product_image_constrain_height * 2;
     // const thumb_constrain_width = 30;
     // const thumb_constrain_height = 30;
-    console.log(products[0])
   return (
         <>
         <h1 class="page-title visually-hidden">Products</h1>

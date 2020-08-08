@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => {
           </nav>
           <div class="branding">
             <a href="/" title="Home">
-              <img class="store-logo" srcset="{{ '/product_images/nu_classics_round.jpg' | constrain: 1168, 200 }}, {{ '/product_images/nu_classics_round.jpg' | constrain: 2136, 400 }} 2x" src={data.placeholderImage?.childImageSharp.fluid.src} alt="Danni Studio Home"/>
+              <img class="store-logo" srcSet={data.placeholderImage?.childImageSharp.fluid.srcSet} src={data.placeholderImage?.childImageSharp.fluid.src} alt="Danni Studio Home"/>
             </a>
           </div>
         </div>

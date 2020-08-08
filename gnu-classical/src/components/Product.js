@@ -5,7 +5,6 @@ import { formatMoney } from '../utils';
 
 export default ({pageContext}) => {
     const { product } = pageContext;
-    console.log(product)
     let product_status;
     if (product.status === 'active') {
         if (product.on_sale) {
@@ -54,24 +53,23 @@ export default ({pageContext}) => {
             }
 
             {
-                product.status == 'active' &&
+                product.status === 'active' &&
                     <div>
                     <input type="hidden" name="utf8" value='✓'/>
                     {product.paypal_id &&
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick"/>
-                        <input type="hidden" name="hosted_button_id" value="{{ product.paypal_id }}"/>
+                        <input type="hidden" name="hosted_button_id" value={product.paypal_id}/>
                         <table>
                         <tr>
                         <td>
-                            <input type="hidden" name="on0" value="{{ product.options_label }}"/>{product.options_value}
+                            <input type="hidden" name="on0" value={product.options_label}/>{product.options_value}
                         </td>
                         </tr>
                         <tr>
                         <td>
                             <div class="select">
                             <select class="product_option_select" name="os0" aria-label="Select option">
-                                <option value="0" disabled="disabled" selected>Select option</option>
                                 {product.options.map(option => (
                                     <option key={option.value} value={option.value}>{option.label}</option>
                                 ))}
