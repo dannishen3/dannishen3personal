@@ -18,7 +18,7 @@ import "../styles/theme.css";
 import Helmet from 'react-helmet'
 import Footer from "./Footer"
 
-const Layout = ({ children, bodyAttributes }) => {
+const Layout = ({ children, bodyAttributes, aside }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -28,7 +28,6 @@ const Layout = ({ children, bodyAttributes }) => {
       }
     }
   `)
-
   return (
     <>
       <Helmet
@@ -42,7 +41,8 @@ const Layout = ({ children, bodyAttributes }) => {
           {children}
           </div>
         </main>
-        <Footer/>
+        {aside}
+      <Footer/>
     </>
   )
 }

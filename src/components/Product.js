@@ -1,10 +1,12 @@
 import React from "react"
+import SEO from "../components/seo"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { formatMoney } from '../utils';
 
 export default ({pageContext}) => {
-    const { product } = pageContext;
+    const { product, previous_product, next_product } = pageContext;
     let product_status;
     if (product.status === 'active') {
         if (product.on_sale) {
@@ -15,46 +17,59 @@ export default ({pageContext}) => {
     } else if (product.status === 'coming-soon') {
         product_status = 'Coming soon';
     }
+
+    const aside = (
+        <aside class="related-products-container wrapper" role="complementary" aria-label="Related products">
+          {(!!previous_product || !!next_product) && (
+            <ul class="prev-next-products">
+            {!!previous_product && <li><Link to={previous_product}>Previous Product</Link></li>}
+            {!!next_product && <li><Link to={next_product}>Next Product</Link></li>}
+          </ul>
+          )}
+        </aside>
+    );
     return (
         <Layout bodyAttributes={{
             class: 'main',
             id: 'product_page'
-          }}>
-    <div class="product-page">
-        <div class="product-page-headings">
-            { !!product_status && <span class="product-status">{ product_status }</span>}
-            <h1 class="product-title has-dash">{ product.name }</h1>
-            <div class="product-price">
-            {product.xvariable_pricing ?
-                `${formatMoney(product.xmin_price)} - ${formatMoney(product.xmax_price)}` :
-                `${formatMoney(product.default_price)}`
-            }
-            </div>
-        </div>
+          }}
+          aside={aside}>
+            <SEO title="Product" />
+            <div class="product-page">
+                <div class="product-page-headings">
+                    { !!product_status && <span class="product-status">{ product_status }</span>}
+                    <h1 class="product-title has-dash">{ product.name }</h1>
+                    <div class="product-price">
+                    {product.xvariable_pricing ?
+                        `${formatMoney(product.xmin_price)} - ${formatMoney(product.xmax_price)}` :
+                        `${formatMoney(product.default_price)}`
+                    }
+                    </div>
+                </div>
 
-        <div class={`product-images${product.images.length > 1 ? ' product-images-slideshow' : ''}`}>
-            <ul class="slides">
-                {
-                    product.images.map(image => (
-                        <li>
-                            <img alt={product.name} class="product-image" src={image.childImageSharp.fluid.src} srcSet={image.childImageSharp.fluid.srcSet}/>
-                        </li>
-                    ))
+                <div class={`product-images${product.images.length > 1 ? ' product-images-slideshow' : ''}`}>
+                    <ul class="slides">
+                        {
+                            product.images.map(image => (
+                                <li>
+                                    <img alt={product.name} class="product-image" src={image.childImageSharp.fluid.src} srcSet={image.childImageSharp.fluid.srcSet}/>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+
+            <div class="product-details">
+                {!!product.description &&
+                <div class="product-description">
+                    {product.description}
+                    {/* {{ product.description | paragraphs }} */}
+                </div>
                 }
-            </ul>
-        </div>
 
-        <div class="product-details">
-            {!!product.description &&
-            <div class="product-description">
-                {product.description}
-                {/* {{ product.description | paragraphs }} */}
-            </div>
-            }
-
-            {
+                {
                 product.status === 'active' &&
-                    <div>
+                <div>
                     <input type="hidden" name="utf8" value='✓'/>
                     {product.paypal_id &&
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -82,43 +97,41 @@ export default ({pageContext}) => {
                         <input type="hidden" name="currency_code" value="USD"/>
                         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
                         <img class="paypal-pixel" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-                        </form>
+                    </form>
                     }
-                    </div>
+                </div>
                 }
-            {/* 
-
-            {/* {% if theme.show_facebook or theme.show_twitter or theme.show_pinterest %}
-            <ul class="social-buttons">
-                {% if theme.show_facebook %}
-                <li class="social-facebook">
-                <div class="social-title">Share it</div>
-                <div class="social-action">
-                    <div class="fb-share-button" data-href="{{ page.full_url }}" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.full_url }}src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-                </div>
-                </li>
-                {% endif %}
-                {% if theme.show_twitter %}
-                <li class="social-twitter">
-                <div class="social-title">Tweet It</div>
-                <div class="social-action">
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.full_url }}" data-text="Check out {{ product.name }} from {{ store.name }}!">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </div>
-                </li>
-                {% endif %}
-                {% if theme.show_pinterest %}
-                <li class="social-pinterest">
-                <div class="social-title">Pin It</div>
-                <div class="social-action">
-                    <a href="http://pinterest.com/pin/create/button/?url={{ page.full_url }}&media={{ product.image.url }}&description={% if product.description != blank %}{{ product.description | escape | truncate: 490 }}{% endif %}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It"></a>
-                    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
-                </div>
-                </li>
-                {% endif %}
-            </ul>
-            {% endif %} */}
+                {/* {% if theme.show_facebook or theme.show_twitter or theme.show_pinterest %}
+                <ul class="social-buttons">
+                    {% if theme.show_facebook %}
+                    <li class="social-facebook">
+                    <div class="social-title">Share it</div>
+                    <div class="social-action">
+                        <div class="fb-share-button" data-href="{{ page.full_url }}" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.full_url }}src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                    </div>
+                    </li>
+                    {% endif %}
+                    {% if theme.show_twitter %}
+                    <li class="social-twitter">
+                    <div class="social-title">Tweet It</div>
+                    <div class="social-action">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.full_url }}" data-text="Check out {{ product.name }} from {{ store.name }}!">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </div>
+                    </li>
+                    {% endif %}
+                    {% if theme.show_pinterest %}
+                    <li class="social-pinterest">
+                    <div class="social-title">Pin It</div>
+                    <div class="social-action">
+                        <a href="http://pinterest.com/pin/create/button/?url={{ page.full_url }}&media={{ product.image.url }}&description={% if product.description != blank %}{{ product.description | escape | truncate: 490 }}{% endif %}" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It"></a>
+                        <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+                    </div>
+                    </li>
+                    {% endif %}
+                </ul>
+                {% endif %} */}
+            </div>
         </div>
-    </div>
     </Layout>
     )
 

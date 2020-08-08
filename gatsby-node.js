@@ -51,14 +51,18 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   const products = q.data.allProductsJson.edges;
-  products.forEach(product => {
+  products.forEach((product, i) => {
         product = product.node;
+        const previous_product = products[i-1]?.node.url;
+        const next_product = products[i+1]?.node.url;
         createPage({
-        path: product.url,
-        component: require.resolve("./src/components/Product.js"),
-        context: {
-            product: product
-        },
+          path: product.url,
+          component: require.resolve("./src/components/Product.js"),
+          context: {
+              product: product,
+              previous_product,
+              next_product,
+          },
         })
   })
 }

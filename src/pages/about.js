@@ -24,7 +24,7 @@ const About = () => (
               }
           `}</style>
       </Helmet>
-    <SEO title="About" />
+      <SEO title="About" />
         <p>nü-classics: re-defining classicality</p>
 
         <p>lightweight, slow-made contemporary jewelry inspired by organic minimalism: a wearable-form study of nature & culture // limited edition // super small shop & studio, handmade in New York // 女 AAPI-owned</p>
