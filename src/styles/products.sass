@@ -79,7 +79,7 @@
   text-decoration: none
   text-transform: uppercase
   vertical-align: middle
-  width: calc(100% / #{"{{ theme.max_products_per_row }}"})
+  width: calc(100% / 3)
   word-break: break-word
 
   &:hover, &:focus
@@ -100,7 +100,7 @@
 
   @media screen and (max-width: $break-small)
     padding: $luna-base
-    width: calc(100% / #{"{{ theme.max_products_per_row_mobile }}"})
+    width: calc(100% / 1)
 
   @media (hover: hover), (-moz-touch-enabled: 0)
     &.rollover
