@@ -1,7 +1,7 @@
 {
   "name": "nu-classics",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "nü-classics: re-defining classicality / contemporary, minimalist, among forms",
   "version": "0.1.0",
   "author": "Scott",
   "dependencies": {
@@ -37,7 +37,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://github.com/dannishen3/shop.git"
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -r https://github.com/dannishen3/shop.git && gatsby clean"
   },
   "repository": {
     "type": "git",
