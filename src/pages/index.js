@@ -50,10 +50,10 @@ const IndexPage = () => {
   `)
   
   return (
-    <Layout bodyAttributes={{
-      class: 'theme',
-      id: 'home_page'
-    }}>
+    <Layout
+      bodyClass="theme"
+      bodyId="home_page"
+    >
       <SEO title="Home" />
       <Products products={data.allProductsJson.edges} />
     </Layout>

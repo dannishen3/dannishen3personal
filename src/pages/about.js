@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 import { Helmet } from "react-helmet"
 
 const About = () => (
-  <Layout bodyAttributes={{
-    class: 'theme',
-    id: 'contact_page'
-  }}>
+  <Layout
+    bodyClass="theme"
+    bodyId="contact_page"
+  >
       <Helmet>
           <style>{`
               #___gatsby {

@@ -29,11 +29,11 @@ export default ({pageContext}) => {
         </aside>
     );
     return (
-        <Layout bodyAttributes={{
-            class: 'main',
-            id: 'product_page'
-          }}
-          aside={aside}>
+        <Layout
+            bodyClass="main"
+            bodyId="product_page"
+            aside={aside}
+        >
             <SEO title="Product" />
             <div class="product-page">
                 <div class="product-page-headings">
