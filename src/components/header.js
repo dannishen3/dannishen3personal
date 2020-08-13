@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => {
         <div class="wrapper">
           <nav class="header-nav" role="navigation" aria-label="Main">
             <ul>
-              <li><Link to="/">Products</Link></li>
+              <li><Link to="/">Shop</Link></li>
               <li><Link to="/about">About</Link></li>
               <li>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => {
         </div>
         <nav class="header-nav mobile-nav" aria-label="Mobile Main" role="navigation">
           <ul>
-              <li><Link to="/">Products</Link></li>
+              <li><Link to="/">Shop</Link></li>
               <li><Link to="/about">About</Link></li>
             <li>
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
