@@ -72,7 +72,7 @@ export default ({pageContext}) => {
                 <div>
                     <input type="hidden" name="utf8" value='✓'/>
                     {product.paypal_id &&
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick"/>
                         <input type="hidden" name="hosted_button_id" value={product.paypal_id}/>
                         <table>

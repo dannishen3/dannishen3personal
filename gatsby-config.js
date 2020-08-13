@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/shop`,
+  // pathPrefix: `/shop`,
   siteMetadata: {
     title: `nu-classics`,
     description: `nü-classics: re-defining classicality / contemporary, minimalist, among forms`,
