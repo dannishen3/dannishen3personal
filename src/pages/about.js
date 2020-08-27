@@ -31,7 +31,9 @@ const About = () => (
         
         <p>“among forms”</p>
 
-        <p>“IG: @nu.classics”</p>
+        <p>IG: @nu.classics</p>
+        <br/>
+        <p>Return Policy: if faulty/broken - orders can be replaced. Please leave a message via IG</p>
   </Layout>
 )
 

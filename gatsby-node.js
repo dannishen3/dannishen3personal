@@ -29,6 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
             position
             price
             status
+            inventory
             url
             xmax_price
             xmin_price

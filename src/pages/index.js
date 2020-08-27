@@ -26,6 +26,7 @@ const IndexPage = () => {
             options_label
             options_value
             paypal_id
+            inventory
             position
             price
             status

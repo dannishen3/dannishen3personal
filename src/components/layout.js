@@ -51,7 +51,7 @@ const Layout = ({ children, bodyClass='', bodyId='', aside }) => {
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,700|Varela+Round"/>
       </Helmet>
       <aside aria-label="Announcement message" class="announcement-message">
-        <div class="wrapper announcement-message-text">free shipping on U.S. orders 50+ / international 70+ / orders ship every Friday</div>
+        <div class="wrapper announcement-message-text">SUMMER SALE: 10% off + free shipping on all of collection 1.0 / orders ship every Friday</div>
         <button onClick={()=>{
           if (typeof window !== 'undefined') {
             window.SiteGlobalState.sawMessage = true;

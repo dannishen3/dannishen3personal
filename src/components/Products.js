@@ -1,21 +1,7 @@
 import React from "react"
 // import products from '../products';
 import { Link } from "gatsby";
-import { formatMoney } from "../utils";
-
-function getProductStatus(product) {
-    let product_status;
-    if (product.status === 'active') {
-        if (product.on_sale) {
-            product_status = 'On Sale';
-        }
-    } else if (product.status === 'sold-out') {
-        product_status = 'Sold out';
-    } else if (product.status === 'coming-soon') {
-        product_status = 'Coming soon';
-    }
-    return product_status;
-}
+import { formatMoney, getProductStatus } from "../utils";
 
 export default ({products}) => {
     // const product_image_constrain_width = 346;
@@ -55,6 +41,7 @@ export default ({products}) => {
                                             `${formatMoney(product.default_price)}`
                                         }
                                         <div class="product-list-thumb-status">{getProductStatus(product)}</div>
+                                        <div class="product-list-thumb-status">{product.inventory}</div>
                                     </div>
                                     </div>
                                 </div>

@@ -3,20 +3,11 @@ import SEO from "../components/seo"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import { formatMoney } from '../utils';
+import { formatMoney, getProductStatus } from '../utils';
 
 export default ({pageContext}) => {
     const { product, previous_product, next_product } = pageContext;
-    let product_status;
-    if (product.status === 'active') {
-        if (product.on_sale) {
-            product_status = 'On Sale';
-        }
-    } else if (product.status === 'sold-out') {
-        product_status = 'Sold out';
-    } else if (product.status === 'coming-soon') {
-        product_status = 'Coming soon';
-    }
+    const product_status = getProductStatus(product);
 
     const aside = (
         <aside class="related-products-container wrapper" aria-label="Related products">
@@ -38,6 +29,7 @@ export default ({pageContext}) => {
             <div class="product-page">
                 <div class="product-page-headings">
                     { !!product_status && <span class="product-status">{ product_status }</span>}
+                    { !!product.inventory && <span class="product-status">{ product.inventory }</span>}
                     <h1 class="product-title has-dash">{ product.name }</h1>
                     <div class="product-price">
                     {product.xvariable_pricing ?

@@ -17,15 +17,15 @@
       "options_label": "hoop type",
       "options_value": "hoop type",
       "xvariable_pricing": true,
-      "xmin_price": 25.00,
-      "xmax_price": 28.00,
+      "xmin_price": 22.50,
+      "xmax_price": 25.20,
       "options": [
         {
-          "label": "non-hypoallergenic (25mm) $25.00 USD",
+          "label": "non-hypoallergenic (25mm) $22.50 USD",
           "value": "non-hypoallergenic (25mm)"
         },
         {
-          "label": "hypoallergenic (14mm) $28.00 USD",
+          "label": "hypoallergenic (14mm) $25.20 USD",
           "value": "hypoallergenic (14mm)"
         }
       ],
@@ -48,6 +48,7 @@
       "tax": 0,
       "url": "/product/marble-gourd-crystal-drop",
       "status": "active",
+      "inventory": "one left",
       "on_sale": false,
       "created_at": "2019-07-31T21:06:34.000Z",
       "description": "(hoop type) 25mm: gold-plated or 14mm: gold-plated, hypoallergenic, non-tarnish / (material) clay + glass bead / gold hardware",
@@ -56,15 +57,15 @@
       "options_label": "hoop type",
       "options_value": "hoop type",
       "xvariable_pricing": true,
-      "xmin_price": 30.00,
-      "xmax_price": 33.00,
+      "xmin_price": 27.00,
+      "xmax_price": 29.70,
       "options": [
         {
-          "label": "non-hypoallergenic (25mm) $30.00 USD",
+          "label": "non-hypoallergenic (25mm) $27.00 USD",
           "value": "non-hypoallergenic (25mm)"
         },
         {
-          "label": "hypoallergenic (14mm) $33.00 USD",
+          "label": "hypoallergenic (14mm) $29.70 USD",
           "value": "hypoallergenic (14mm)"
         }
       ],
@@ -82,7 +83,7 @@
       "name": "lotus-rhizome",
       "permalink": "lotus-rhizome",
       "position": 3,
-      "price": 25.00,
+      "price": 22.50,
       "default_price": 25.00,
       "tax": 0,
       "url": "/product/lotus-rhizome",
@@ -95,15 +96,15 @@
       "options_label": "hoop type",
       "options_value": "hoop type",
       "xvariable_pricing": true,
-      "xmin_price": 25.00,
-      "xmax_price": 28.00,
+      "xmin_price": 22.50,
+      "xmax_price": 25.20,
       "options": [
         {
-          "label": "non-hypoallergenic (25mm) $25.00 USD",
+          "label": "non-hypoallergenic (25mm) $22.50 USD",
           "value": "non-hypoallergenic (25mm)"
         },
         {
-          "label": "hypoallergenic (14mm) $28.00 USD",
+          "label": "hypoallergenic (14mm) $25.20 USD",
           "value": "hypoallergenic (14mm)"
         }
       ],
@@ -126,6 +127,7 @@
       "tax": 0,
       "url": "/product/marble-jade-drop-ii",
       "status": "active",
+      "inventory": "one left",
       "on_sale": false,
       "created_at": "2013-03-26T16:46:17.000Z",
       "description": "(hoop type) 25mm: gold-plated or 14mm: gold-plated, hypoallergenic, non-tarnish / (material) clay + acrylic bead / gold hardware",
@@ -134,15 +136,15 @@
       "options_label": "hoop type",
       "options_value": "hoop type",
       "xvariable_pricing": true,
-      "xmin_price": 27.00,
-      "xmax_price": 30.00,
+      "xmin_price": 24.30,
+      "xmax_price": 27.00,
       "options": [
         {
-          "label": "non-hypoallergenic (25mm) $27.00 USD",
+          "label": "non-hypoallergenic (25mm) $24.30 USD",
           "value": "non-hypoallergenic (25mm)"
         },
         {
-          "label": "hypoallergenic (14mm) $30.00 USD",
+          "label": "hypoallergenic (14mm) $27.00 USD",
           "value": "hypoallergenic (14mm)"
         }
       ],
@@ -172,21 +174,21 @@
       "options_label": "hoop type",
       "options_value": "hoop type",
       "xvariable_pricing": true,
-      "xmin_price": 27.00,
-      "xmax_price": 30.00,
+      "xmin_price": 24.30,
+      "xmax_price": 27.00,
       "options": [
         {
-          "label": "non-hypoallergenic (25mm) $27.00 USD",
+          "label": "non-hypoallergenic (25mm) $24.30 USD",
           "value": "non-hypoallergenic (25mm)"
         },
         {
-          "label": "hypoallergenic (14mm) $30.00 USD",
+          "label": "hypoallergenic (14mm) $27.00 USD",
           "value": "hypoallergenic (14mm)"
         }
       ],
       "images": [
+        "../images/product_images/marblejade_4.jpg",
         "../images/product_images/marblejade_1.jpeg",
-        "../images/product_images/marblejade_2.jpg",
         "../images/product_images/marblejade_3.jpeg"
       ],
       "artists": [],
@@ -211,15 +213,15 @@
       "options_label": "melon size",
       "options_value": "melon size",
       "xvariable_pricing": true,
-      "xmin_price": 20.00,
-      "xmax_price": 20.00,
+      "xmin_price": 18.00,
+      "xmax_price": 18.00,
       "options": [
         {
-          "label": "smaller (1in length) $20.00 USD",
+          "label": "smaller (1in length) $18.00 USD",
           "value": "smaller (1in length)"
         },
         {
-          "label": "larger (1.5in length) $20.00 USD",
+          "label": "(OUT-OF-STOCK) larger (1.5in length) $18.00 USD",
           "value": "larger (1.5in length)"
         }
       ],
