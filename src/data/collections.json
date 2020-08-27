@@ -1,0 +1,13 @@
+[{
+    "name": "collection 1.0",
+    "url": "collections/collection-1.0",
+    "image": "../images/product_images/disk_1.JPG"
+}, {
+    "name": "capsule",
+    "url": "collections/capsule",
+    "image": "../images/product_images/gourds_3.jpg"
+}, {
+    "name": "works on paper",
+    "url": "collections/works-on-paper",
+    "image": "../images/product_images/marblejade_4.jpg"
+}]

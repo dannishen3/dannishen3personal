@@ -1,6 +1,7 @@
 [
     {
       "id": 57942893,
+      "collection": "collection 1.0",
       "name": "marble-gourd",
       "permalink": "marble-gourd",
       "position": 1,
@@ -40,6 +41,7 @@
     },
     {
       "id": 56776628,
+      "collection": "coll2",
       "name": "marble-gourd-crystal-drop",
       "permalink": "marble-gourd-crystal-drop",
       "position": 2,
@@ -80,6 +82,7 @@
     },
     {
       "id": 10180984,
+      "collection": "capsule",
       "name": "lotus-rhizome",
       "permalink": "lotus-rhizome",
       "position": 3,
@@ -119,6 +122,7 @@
     },
     {
       "id": 10181119,
+      "collection": "works on paper",
       "name": "marble-jade-drop-ii",
       "permalink": "marble-jade-drop-ii",
       "position": 5,
@@ -158,6 +162,7 @@
     },
     {
       "id": 10181041,
+      "collection": "coll1",
       "name": "marble-jade-drop-i",
       "permalink": "marble-jade-drop-i",
       "position": 4,
@@ -197,6 +202,7 @@
     },
     {
       "id": 10181086,
+      "collection": "coll2",
       "name": "melon-slice",
       "permalink": "melon-slice",
       "position": 6,

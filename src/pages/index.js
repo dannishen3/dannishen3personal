@@ -1,41 +1,19 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
-import Products from "../components/Products"
+import Collections from "../components/Collections"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allProductsJson {
+      allCollectionsJson {
         edges {
           node {
-            id
-            created_at
-            default_price
-            description
             name
-            on_sale
-            options {
-              label
-              value
-            }
-            options_label
-            options_value
-            paypal_id
-            inventory
-            position
-            price
-            status
             url
-            tax
-            xmax_price
-            xmin_price
-            xvariable_pricing
-            images {
+            image {
               id
               size
               childImageSharp {
@@ -48,7 +26,7 @@ const IndexPage = () => {
         }
       }
     }
-  `)
+  `);
   
   return (
     <Layout
@@ -56,7 +34,7 @@ const IndexPage = () => {
       bodyId="home_page"
     >
       <SEO title="Home" />
-      <Products products={data.allProductsJson.edges} />
+      <Collections collections={data.allCollectionsJson.edges} />
     </Layout>
   )
 }

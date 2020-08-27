@@ -25,7 +25,7 @@ export default ({pageContext}) => {
             bodyId="product_page"
             aside={aside}
         >
-            <SEO title="Product" />
+            <SEO title={product.name} />
             <div class="product-page">
                 <div class="product-page-headings">
                     { !!product_status && <span class="product-status">{ product_status }</span>}

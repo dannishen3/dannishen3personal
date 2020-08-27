@@ -6,6 +6,7 @@
 
 // You can delete this file if you're not using it
 const fs = require("fs")
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const q = await graphql(`
@@ -14,6 +15,7 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             id
+            collection
             created_at
             default_price
             description
@@ -52,8 +54,20 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   const products = q.data.allProductsJson.edges;
+  const productsGroupedByCollection = {};
+
+  // build individual product pages
   products.forEach((product, i) => {
         product = product.node;
+
+        // group products by collection
+        if (product.collection) {
+          if (!productsGroupedByCollection[product.collection]) {
+            productsGroupedByCollection[product.collection] = [];
+          }
+          productsGroupedByCollection[product.collection].push(product);
+        }
+
         const previous_product = products[i-1]?.node.url;
         const next_product = products[i+1]?.node.url;
         createPage({
@@ -66,4 +80,44 @@ exports.createPages = async ({ graphql, actions }) => {
           },
         })
   })
+
+  const collectionQ = await graphql(`
+    query {
+      allCollectionsJson {
+        edges {
+          node {
+            name
+            url
+            image {
+              id
+              size
+              childImageSharp {
+                fluid (maxWidth:500){
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  // build collection pages
+  collectionQ.data.allCollectionsJson.edges.forEach((collection) => {
+    collection = collection.node;
+    const products = productsGroupedByCollection[collection.name] || [];
+
+    createPage({
+      path: collection.url,
+      component: require.resolve("./src/components/collection.js"),
+      context: {
+          products,
+          collection
+      },
+    })
+  });
 }
