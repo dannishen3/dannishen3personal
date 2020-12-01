@@ -1,13 +1,13 @@
 [{
     "name": "collection 1.0",
     "url": "collections/collection-1.0",
-    "image": "../images/product_images/disk_1.JPG"
+    "image": "../images/product_images/collection_1.jpg"
 }, {
-    "name": "capsule",
+    "name": "capsule [upcoming]",
     "url": "collections/capsule",
-    "image": "../images/product_images/gourds_3.jpg"
+    "image": "../images/product_images/moongourd_4.jpg"
 }, {
     "name": "works on paper",
     "url": "collections/works-on-paper",
-    "image": "../images/product_images/marblejade_4.jpg"
+    "image": "../images/product_images/floral_1.jpeg"
 }]

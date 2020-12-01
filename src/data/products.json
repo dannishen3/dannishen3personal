@@ -41,7 +41,7 @@
     },
     {
       "id": 56776628,
-      "collection": "coll2",
+      "collection": "collection 1.0",
       "name": "marble-gourd-crystal-drop",
       "permalink": "marble-gourd-crystal-drop",
       "position": 2,
@@ -82,7 +82,7 @@
     },
     {
       "id": 10180984,
-      "collection": "capsule",
+      "collection": "collection 1.0",
       "name": "lotus-rhizome",
       "permalink": "lotus-rhizome",
       "position": 3,
@@ -122,7 +122,7 @@
     },
     {
       "id": 10181119,
-      "collection": "works on paper",
+      "collection": "collection 1.0",
       "name": "marble-jade-drop-ii",
       "permalink": "marble-jade-drop-ii",
       "position": 5,
@@ -162,7 +162,7 @@
     },
     {
       "id": 10181041,
-      "collection": "coll1",
+      "collection": "collection 1.0",
       "name": "marble-jade-drop-i",
       "permalink": "marble-jade-drop-i",
       "position": 4,
@@ -202,7 +202,7 @@
     },
     {
       "id": 10181086,
-      "collection": "coll2",
+      "collection": "collection 1.0",
       "name": "melon-slice",
       "permalink": "melon-slice",
       "position": 6,
@@ -241,7 +241,172 @@
       "option_groups": []
     },
     {
+      "id": 10181200,
+      "collection": "capsule [upcoming]",
+      "name": "moongourd universe",
+      "permalink": "moongourd-universe",
+      "position": 1,
+      "price": 32,
+      "default_price": 32,
+      "tax": 0,
+      "url": "/product/moongourd-universe",
+      "status": "active",
+      "paypal_id": "89PEXLXJDBQG8",
+      "on_sale": false,
+      "created_at": "2013-03-26T22:48:04.000Z",
+      "description": "opalite gourd, crystal quartz, silver chain, custom-fitted",
+      "has_option_groups": false,
+      "options": [
+        {
+          "label": "32 inches",
+          "value": "size"
+        }
+      ],
+      "images": [
+        "../images/product_images/moongourd_1.jpeg",
+        "../images/product_images/moongourd_3.jpg",
+        "../images/product_images/moongourd_4.jpg"
+      ]
+    }, 
+    {
+      "id": 10181205,
+      "collection": "capsule [upcoming]",
+      "name": "yin yang collar",
+      "permalink": "yin-yang-collar",
+      "position": 2,
+      "price": 35,
+      "default_price": 35,
+      "tax": 0,
+      "url": "/product/yin-yang-collar",
+      "status": "active",
+      "paypal_id": "Z57TD8EM5PTRG",
+      "on_sale": false,
+      "created_at": "2013-03-26T22:48:04.000Z",
+      "description": "hand-crafted clay beads, mala beads, artisinal glass beads, bronze hardware",
+      "has_option_groups": false,
+      "options": [
+        {
+          "label": "black mala beads",
+          "value": "black"
+        },
+        {
+          "label": "white mala beads",
+          "value": "white"
+        }
+      ],
+      "images": [
+        "../images/product_images/yinyangn_2.jpeg",
+        "../images/product_images/yinyangn_1.jpeg",
+        "../images/product_images/yinyangn_5.jpg",
+        "../images/product_images/yinyangn_4.jpeg"
+      ]
+    },
+    {
+      "id": 10181201,
+      "collection": "capsule [upcoming]",
+      "name": "celestial coin",
+      "permalink": "celestial-coin",
+      "position": 3,
+      "price": 38,
+      "default_price": 38,
+      "tax": 0,
+      "url": "/product/celestial-coin",
+      "paypal_id": "JKRSMRA69QVWE",
+      "status": "active",
+      "on_sale": false,
+      "created_at": "2013-03-26T22:48:04.000Z",
+      "description": "vintage coin, jade glaze ceramic bead, opalite, bronze chain, custom-fitted",
+      "has_option_groups": false,
+      "options": [],
+      "images": [
+        "../images/product_images/celestial_1.jpeg",
+        "../images/product_images/celestial_2.jpeg",
+        "../images/product_images/celestial_6.jpg",
+        "../images/product_images/celestial_4.jpeg"
+      ]
+    },
+    {
+      "id": 10181202,
+      "collection": "capsule [upcoming]",
+      "name": "jade cosmos",
+      "permalink": "jade-cosmos",
+      "position": 3,
+      "price": 35,
+      "default_price": 35,
+      "tax": 0,
+      "url": "/product/jade-cosmos",
+      "paypal_id": "UTC25Q9Z4ULQW",
+      "status": "active",
+      "on_sale": false,
+      "created_at": "2013-03-26T22:48:04.000Z",
+      "description": "agate stone, silver chain, custom-fitted",
+      "has_option_groups": false,
+      "options": [],
+      "images": [
+        "../images/product_images/jadecosmos_1.jpeg",
+        "../images/product_images/jadecosmos_3.jpg",
+        "../images/product_images/jadecosmos_2.jpeg"
+      ]
+    },
+    {
+      "id": 10181203,
+      "collection": "capsule [upcoming]",
+      "name": "bauble bauble",
+      "permalink": "bauble-bauble",
+      "position": 4,
+      "price": 28,
+      "default_price": 28,
+      "tax": 0,
+      "url": "/product/bauble-bauble",
+      "paypal_id": "JAT9FRPLQQ2T4",
+      "status": "active",
+      "on_sale": false,
+      "created_at": "2013-03-26T22:48:04.000Z",
+      "description": "crystal quartz, gold hypoallergenic, non-tarnish hoop",
+      "has_option_groups": false,
+      "options": [],
+      "images": [
+        "../images/product_images/baubles_1.jpeg",
+        "../images/product_images/baubles_25.jpg",
+        "../images/product_images/baubles_2.jpg"
+        
+      ]
+    },
+    {
+      "id": 10181204,
+      "collection": "capsule [upcoming]",
+      "name": "endure heart keychain",
+      "permalink": "endure-heart",
+      "position": 5,
+      "price": 5,
+      "default_price": 5,
+      "tax": 0,
+      "url": "/product/endure-heart",
+      "paypal_id": "4EXFK22DELUHL",
+      "status": "active",
+      "on_sale": false,
+      "created_at": "2013-03-26T22:48:04.000Z",
+      "description": "clay, gold chain",
+      "has_option_groups": false,
+      "options": [
+        {
+          "label": "black",
+          "value": "color"
+        },
+        {
+          "label": "white",
+          "value": "color"
+        }
+      ],
+      "images": [
+        "../images/product_images/hearts_1.jpeg",
+        "../images/product_images/hearts_2.jpeg",
+        "../images/product_images/hearts_3.jpeg"
+      ]
+    },
+    {
       "id": 10181152,
+      "collection": "works on paper",
       "name": "floral-studies-series:-1.0-8.0-[artist support pledge]",
       "permalink": "floral-studies",
       "position": 7,

@@ -25,13 +25,13 @@ const About = () => (
           `}</style>
       </Helmet>
       <SEO title="About" />
-        <p>nü-classics: re-defining classicality</p>
+        <p>shennü — for the celestial minimalist</p>
 
-        <p>lightweight, slow-made contemporary jewelry inspired by organic minimalism: a wearable-form study of nature & culture // limited edition // super small shop & studio, handmade in New York // 女 AAPI-owned</p>
+        <p>contemporary jewelry // limited edition // material fusion // a wearable-form study of nature & culture // small shop & studio, handmade in New York // 女 AAPI-owned</p>
         
         <p>“among forms”</p>
 
-        <p>IG: @nu.classics</p>
+        <p>IG: @shennu.co</p>
         <br/>
         <p>Return Policy: if faulty/broken - orders can be replaced. Please leave a message via IG</p>
   </Layout>
