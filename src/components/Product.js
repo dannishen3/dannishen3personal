@@ -42,8 +42,8 @@ export default ({pageContext}) => {
                 <div class={`product-images${product.images.length > 1 ? ' product-images-slideshow' : ''}`}>
                     <ul class="slides">
                         {
-                            product.images.map(image => (
-                                <li>
+                            product.images.map((image, i) => (
+                                <li key={i}>
                                     <img alt={product.name} class="product-image" src={image.childImageSharp.fluid.src} srcSet={image.childImageSharp.fluid.srcSet}/>
                                 </li>
                             ))
@@ -68,11 +68,14 @@ export default ({pageContext}) => {
                         <input type="hidden" name="cmd" value="_s-xclick"/>
                         <input type="hidden" name="hosted_button_id" value={product.paypal_id}/>
                         <table>
+                        <tbody>
                         <tr>
                         <td>
                             <input type="hidden" name="on0" value={product.options_label}/>{product.options_value}
                         </td>
                         </tr>
+                        {product.show_text_field && <tr><td><input type="text" name="os0" maxlength="200"></input></td></tr>}
+                        {!!product.options?.length && (
                         <tr>
                         <td>
                             <div class="select">
@@ -81,14 +84,16 @@ export default ({pageContext}) => {
                                     <option key={option.value} value={option.value}>{option.label}</option>
                                 ))}
                             </select>
-                                <svg viewBox="0 0 15 7.6" enable-background="new 0 0 15 7.6"><path d="M15 1.1l-7.5 6.5-7.5-6.3 1-1.2 6.5 5.5 6.5-5.6z"/></svg>
+                                <svg viewBox="0 0 15 7.6" enableBackground="new 0 0 15 7.6"><path d="M15 1.1l-7.5 6.5-7.5-6.3 1-1.2 6.5 5.5 6.5-5.6z"/></svg>
                             </div>
                         </td>
                         </tr>
-                        </table>
+                        )}
                         <input type="hidden" name="currency_code" value="USD"/>
                         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
                         <img class="paypal-pixel" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+                        </tbody>
+                        </table>
                     </form>
                     }
                 </div>

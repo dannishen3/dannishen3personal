@@ -27,6 +27,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             options_label
             options_value
+            show_text_field
             paypal_id
             position
             price
