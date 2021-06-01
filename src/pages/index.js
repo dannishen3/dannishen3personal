@@ -3,22 +3,46 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Collections from "../components/Collections"
+import Products from "../components/Products"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allCollectionsJson {
+      allProductsJson(sort: {order: DESC, fields: ord }, filter: {featured: {eq: true}}) {
         edges {
           node {
+            ord
+            collection
+            created_at
+            default_price
+            description
             name
+            on_sale
+            options {
+              label
+              value
+            }
+            options_label
+            options_value
+            show_text_field
+            paypal_id
+            position
+            price
+            status
+            inventory
             url
-            image {
+            xmax_price
+            xmin_price
+            xvariable_pricing
+            images {
               id
               size
               childImageSharp {
-                fluid(maxWidth: 300) {
-                  ...GatsbyImageSharpFluid
+                fluid (maxWidth:500){
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
                 }
               }
             }
@@ -34,7 +58,7 @@ const IndexPage = () => {
       bodyId="home_page"
     >
       <SEO title="Home" />
-      <Collections collections={data.allCollectionsJson.edges} />
+      <Products products={data.allProductsJson.edges.map(edge => edge.node)} />
     </Layout>
   )
 }

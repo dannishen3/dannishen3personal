@@ -8,6 +8,7 @@ const Footer = ({ siteTitle }) => (
             <nav class="footer-nav" id="footer" role="navigation" aria-label="Footer">
                 <ul class="footer-links">
                 <li><Link to="/">Shop</Link></li>
+                <li><Link to="/collections">Collections</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" >

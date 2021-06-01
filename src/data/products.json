@@ -1,6 +1,56 @@
 [
+  {
+    "ord": 7,
+    "featured": true,
+    "collection": "collection 3.0",
+    "name": "01",
+    "permalink": "01",
+    "position": 1,
+    "price": 42,
+    "default_price": 42,
+    "tax": 0,
+    "url": "/product/01",
+    "status": "active",
+    "show_text_field": true,
+    "paypal_id": "KS7AS9YK2UWNQ",
+    "on_sale": false,
+    "created_at": "2013-03-26T22:48:04.000Z",
+    "description": "L: 17.5 in. (pendant: 1.0 in.) hand-painted porcelain, mala bead, stainless steel hardware, resin",
+    "has_option_groups": false,
+    "options": [],
+    "images": [
+      "../images/product_images/Porcelain21/S2021_2_1.jpg",
+      "../images/product_images/Porcelain21/S2021_2_2.jpeg"
+    ]
+    },
+  {
+    "ord": 7,
+    "featured": true,
+    "collection": "collection 3.0",
+    "name": "02",
+    "permalink": "02",
+    "position": 1,
+    "price": 45,
+    "default_price": 45,
+    "tax": 0,
+    "url": "/product/02",
+    "status": "active",
+    "show_text_field": true,
+    "paypal_id": "KUDA4QJ5D4VE8",
+    "on_sale": false,
+    "created_at": "2013-03-26T22:48:04.000Z",
+    "description": "L: 15.5 in. (pendant: 1.3 in.) hand-painted porcelain, mala bead, stainless steel hardware, resin",
+    "has_option_groups": false,
+    "options": [],
+    "images": [
+      "../images/product_images/Porcelain21/S2021_1_1.jpeg",
+      "../images/product_images/Porcelain21/S2021_1_2.jpeg",
+      "../images/product_images/Porcelain21/S2021_1_3.jpg"
+    ]
+    },
     {
-      "id": 57942893,
+      "ord": 1,
+      "featured": true,
       "collection": "collection 1.0",
       "name": "marble-gourd",
       "permalink": "marble-gourd",
@@ -10,6 +60,7 @@
       "tax": 0,
       "url": "/product/marble-gourd",
       "status": "active",
+      "inventory": "no longer available",
       "on_sale": false,
       "created_at": "2019-09-30T14:15:28.000Z",
       "description": "(hoop type) 25mm: gold-plated or 14mm: gold-plated, hypoallergenic, non-tarnish / (material) clay / gold hardware",
@@ -40,209 +91,9 @@
       "option_groups": []
     },
     {
-      "id": 56776628,
-      "collection": "collection 1.0",
-      "name": "marble-gourd-crystal-drop",
-      "permalink": "marble-gourd-crystal-drop",
-      "position": 2,
-      "price": 30,
-      "default_price": 30,
-      "tax": 0,
-      "url": "/product/marble-gourd-crystal-drop",
-      "status": "active",
-      "inventory": "one left",
-      "on_sale": false,
-      "created_at": "2019-07-31T21:06:34.000Z",
-      "description": "(hoop type) 25mm: gold-plated or 14mm: gold-plated, hypoallergenic, non-tarnish / (material) clay + glass bead / gold hardware",
-      "has_option_groups": false,
-      "paypal_id": "4V6SY487QEWKN",
-      "options_label": "hoop type",
-      "options_value": "hoop type",
-      "xvariable_pricing": true,
-      "xmin_price": 27.00,
-      "xmax_price": 29.70,
-      "options": [
-        {
-          "label": "non-hypoallergenic (25mm) $27.00 USD",
-          "value": "non-hypoallergenic (25mm)"
-        },
-        {
-          "label": "hypoallergenic (14mm) $29.70 USD",
-          "value": "hypoallergenic (14mm)"
-        }
-      ],
-      "images": [
-        "../images/product_images/watergourd_1.jpg",
-        "../images/product_images/watergourd_3.jpg",
-        "../images/product_images/watergourd_2.jpg"
-      ],
-      "artists": [],
-      "categories": [],
-      "option_groups": []
-    },
-    {
-      "id": 10180984,
-      "collection": "collection 1.0",
-      "name": "lotus-rhizome",
-      "permalink": "lotus-rhizome",
-      "position": 3,
-      "price": 22.50,
-      "default_price": 25.00,
-      "tax": 0,
-      "url": "/product/lotus-rhizome",
-      "status": "active",
-      "on_sale": false,
-      "created_at": "2013-03-26T22:40:28.000Z",
-      "description": "(hoop type) 25mm: gold-plated or 14mm: gold-plated, hypoallergenic, non-tarnish / (material) clay / gold hardware",
-      "has_option_groups": false,
-      "paypal_id": "HS6PULWJKDVCA",
-      "options_label": "hoop type",
-      "options_value": "hoop type",
-      "xvariable_pricing": true,
-      "xmin_price": 22.50,
-      "xmax_price": 25.20,
-      "options": [
-        {
-          "label": "non-hypoallergenic (25mm) $22.50 USD",
-          "value": "non-hypoallergenic (25mm)"
-        },
-        {
-          "label": "hypoallergenic (14mm) $25.20 USD",
-          "value": "hypoallergenic (14mm)"
-        }
-      ],
-      "images": [
-        "../images/product_images/rhizome_1.jpg",
-        "../images/product_images/rhizome_2.jpeg",
-        "../images/product_images/rhizome_3.jpg"
-      ],
-      "artists": [],
-      "categories": [],
-      "option_groups": []
-    },
-    {
-      "id": 10181119,
-      "collection": "collection 1.0",
-      "name": "marble-jade-drop-ii",
-      "permalink": "marble-jade-drop-ii",
-      "position": 5,
-      "price": 27,
-      "default_price": 27,
-      "tax": 0,
-      "url": "/product/marble-jade-drop-ii",
-      "status": "active",
-      "inventory": "one left",
-      "on_sale": false,
-      "created_at": "2013-03-26T16:46:17.000Z",
-      "description": "(hoop type) 25mm: gold-plated or 14mm: gold-plated, hypoallergenic, non-tarnish / (material) clay + acrylic bead / gold hardware",
-      "has_option_groups": false,
-      "paypal_id": "B5MUPN7VVSKB4",
-      "options_label": "hoop type",
-      "options_value": "hoop type",
-      "xvariable_pricing": true,
-      "xmin_price": 24.30,
-      "xmax_price": 27.00,
-      "options": [
-        {
-          "label": "non-hypoallergenic (25mm) $24.30 USD",
-          "value": "non-hypoallergenic (25mm)"
-        },
-        {
-          "label": "hypoallergenic (14mm) $27.00 USD",
-          "value": "hypoallergenic (14mm)"
-        }
-      ],
-      "images": [
-        "../images/product_images/disk_1.JPG",
-        "../images/product_images/disk_4.jpg"
-      ],
-      "artists": [],
-      "categories": [],
-      "option_groups": []
-    },
-    {
-      "id": 10181041,
-      "collection": "collection 1.0",
-      "name": "marble-jade-drop-i",
-      "permalink": "marble-jade-drop-i",
-      "position": 4,
-      "price": 27,
-      "default_price": 27,
-      "tax": 0,
-      "url": "/product/marble-jade-drop-i",
-      "on_sale": false,
-      "created_at": "2013-03-26T22:42:53.000Z",
-      "description": "(hoop type) 25mm: gold-plated or 14mm: gold-plated, hypoallergenic, non-tarnish / (material) clay + acrylic bead / gold hardware",
-      "has_option_groups": false,
-      "status": "active",
-      "paypal_id": "3SETDXH6DUS4J",
-      "options_label": "hoop type",
-      "options_value": "hoop type",
-      "xvariable_pricing": true,
-      "xmin_price": 24.30,
-      "xmax_price": 27.00,
-      "options": [
-        {
-          "label": "non-hypoallergenic (25mm) $24.30 USD",
-          "value": "non-hypoallergenic (25mm)"
-        },
-        {
-          "label": "hypoallergenic (14mm) $27.00 USD",
-          "value": "hypoallergenic (14mm)"
-        }
-      ],
-      "images": [
-        "../images/product_images/marblejade_4.jpg",
-        "../images/product_images/marblejade_1.jpeg",
-        "../images/product_images/marblejade_3.jpeg"
-      ],
-      "artists": [],
-      "categories": [],
-      "option_groups": []
-    },
-    {
-      "id": 10181086,
-      "collection": "collection 1.0",
-      "name": "melon-slice",
-      "permalink": "melon-slice",
-      "position": 6,
-      "price": 20,
-      "default_price": 20,
-      "tax": 0,
-      "url": "/product/melon-slice",
-      "status": "active",
-      "on_sale": false,
-      "created_at": "2013-03-26T22:44:51.000Z",
-      "description": "(only one hoop option) 14mm: gold-plated, hypoallergenic, non-tarnish clasp / (material) clay / gold hardware",
-      "has_option_groups": false,
-      "paypal_id": "4PSWWYCCPLUX6",
-      "options_label": "melon size",
-      "options_value": "melon size",
-      "xvariable_pricing": true,
-      "xmin_price": 18.00,
-      "xmax_price": 18.00,
-      "options": [
-        {
-          "label": "smaller (1in length) $18.00 USD",
-          "value": "smaller (1in length)"
-        },
-        {
-          "label": "(OUT-OF-STOCK) larger (1.5in length) $18.00 USD",
-          "value": "larger (1.5in length)"
-        }
-      ],
-      "images": [
-        "../images/product_images/melon_1.jpeg",
-        "../images/product_images/melon_2.jpg",
-        "../images/product_images/melon_3.jpg"
-      ],
-      "artists": [],
-      "categories": [],
-      "option_groups": []
-    },
-    {
-      "id": 10181200,
-      "collection": "capsule [upcoming]",
+      "ord": 5,
+      "featured": true,
+      "collection": "collection 2.0",
       "name": "moongourd universe",
       "permalink": "moongourd-universe",
       "position": 1,
@@ -251,24 +102,26 @@
       "tax": 0,
       "url": "/product/moongourd-universe",
       "status": "active",
+      "inventory": "sold out",
       "options_label": "neck circumference (inches)",
       "options_value": "neck circumference (inches)",
       "show_text_field": true,
       "paypal_id": "89PEXLXJDBQG8",
       "on_sale": false,
       "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "opalite gourd, crystal quartz, silver chain, custom-fitted",
+      "description": "opalite gourd, crystal quartz, silver hardware, custom-fitted",
       "has_option_groups": false,
       "options": [],
       "images": [
         "../images/product_images/moongourd_1.jpeg",
-        "../images/product_images/moongourd_3.jpg",
+        "../images/product_images/moongourd_2.jpg",
         "../images/product_images/moongourd_4.jpg"
       ]
     }, 
     {
-      "id": 10181205,
-      "collection": "capsule [upcoming]",
+      "ord": 3,
+      "featured": true,
+      "collection": "collection 2.0",
       "name": "yin yang collar",
       "permalink": "yin-yang-collar",
       "position": 2,
@@ -277,10 +130,11 @@
       "tax": 0,
       "url": "/product/yin-yang-collar",
       "status": "active",
+      "inventory": "sold out",
       "paypal_id": "Z57TD8EM5PTRG",
       "on_sale": false,
       "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "hand-crafted clay beads, mala beads, artisinal glass beads, bronze hardware",
+      "description": "hand-crafted clay beads, mala beads, artisinal glass beads, bronze chain for adjustable length",
       "has_option_groups": false,
       "options_label": "color",
       "options_value": "color",
@@ -302,13 +156,14 @@
       ]
     },
     {
-      "id": 10181201,
-      "collection": "capsule [upcoming]",
+      "ord": 6,
+      "featured": true,
+      "collection": "collection 2.0",
       "name": "celestial coin",
       "permalink": "celestial-coin",
       "position": 3,
-      "price": 38,
-      "default_price": 38,
+      "price": 37,
+      "default_price": 37,
       "tax": 0,
       "options_label": "neck circumference (inches)",
       "options_value": "neck circumference (inches)",
@@ -316,10 +171,12 @@
       "url": "/product/celestial-coin",
       "paypal_id": "JKRSMRA69QVWE",
       "status": "active",
+      "inventory": "sold out",
       "on_sale": false,
       "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "vintage coin, jade glaze ceramic bead, opalite, bronze chain, custom-fitted",
+      "description": "[sold out] vintage coin, jade glaze ceramic bead, opalite, bronze hardware, custom-fitted",
       "has_option_groups": false,
+      "show_text_field": true,
       "options": [],
       "images": [
         "../images/product_images/celestial_1.jpeg",
@@ -329,20 +186,22 @@
       ]
     },
     {
-      "id": 10181202,
-      "collection": "capsule [upcoming]",
+      "ord": 2,
+      "featured": true,
+      "collection": "collection 2.0",
       "name": "jade cosmos",
       "permalink": "jade-cosmos",
       "position": 3,
-      "price": 35,
-      "default_price": 35,
+      "price": 32,
+      "default_price": 32,
       "tax": 0,
       "url": "/product/jade-cosmos",
       "paypal_id": "UTC25Q9Z4ULQW",
       "status": "active",
+      "inventory": "sold out",
       "on_sale": false,
       "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "agate stone, silver chain, custom-fitted",
+      "description": "[sold out] agate stone, hardware, custom-fitted",
       "has_option_groups": false,
       "options_label": "neck circumference (inches)",
       "options_value": "neck circumference (inches)",
@@ -355,84 +214,29 @@
       ]
     },
     {
-      "id": 10181203,
-      "collection": "capsule [upcoming]",
+      "ord": 4,
+      "featured": true,
+      "collection": "collection 2.0",
       "name": "bauble bauble",
       "permalink": "bauble-bauble",
       "position": 4,
-      "price": 28,
-      "default_price": 28,
+      "price": 25,
+      "default_price": 25,
       "tax": 0,
       "url": "/product/bauble-bauble",
       "paypal_id": "JAT9FRPLQQ2T4",
       "status": "active",
+      "inventory": "no longer available",
       "on_sale": false,
       "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "crystal quartz, gold hypoallergenic, non-tarnish hoop",
+      "description": "crystal quartz, gold hypoallergenic non-tarnish hoop (14mm)",
       "has_option_groups": false,
       "options": [],
       "images": [
-        "../images/product_images/baubles_1.jpeg",
+        "../images/product_images/baubles_2.jpg",
         "../images/product_images/baubles_25.jpg",
-        "../images/product_images/baubles_2.jpg"
+        "../images/product_images/baubles_1.jpeg"
         
       ]
-    },
-    {
-      "id": 10181204,
-      "collection": "capsule [upcoming]",
-      "name": "endure heart keychain",
-      "permalink": "endure-heart",
-      "position": 5,
-      "price": 5,
-      "default_price": 5,
-      "tax": 0,
-      "url": "/product/endure-heart",
-      "paypal_id": "4EXFK22DELUHL",
-      "status": "active",
-      "on_sale": false,
-      "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "clay, gold chain",
-      "options_label": "color",
-      "options_value": "color",
-      "has_option_groups": false,
-      "options": [
-        {
-          "label": "black",
-          "value": "black"
-        },
-        {
-          "label": "white",
-          "value": "white"
-        }
-      ],
-      "images": [
-        "../images/product_images/hearts_1.jpeg",
-        "../images/product_images/hearts_2.jpeg",
-        "../images/product_images/hearts_3.jpeg"
-      ]
-    },
-    {
-      "id": 10181152,
-      "collection": "works on paper",
-      "name": "floral-studies-series:-1.0-8.0-[artist support pledge]",
-      "permalink": "floral-studies",
-      "position": 7,
-      "price": 170,
-      "default_price": 170,
-      "tax": 0,
-      "url": "/product/floral-studies",
-      "status": "coming-soon",
-      "on_sale": false,
-      "created_at": "2013-03-26T22:48:04.000Z",
-      "description": "Original works: handcut collage (prints on xuan paper) on artist paper - fully matted (archival), 11x14in. With artist's signature + seal",
-      "has_option_groups": false,
-      "options": [],
-      "images": [
-        "../images/product_images/floral_1.jpeg"
-      ],
-      "artists": [],
-      "categories": [],
-      "option_groups": []
     }
   ]

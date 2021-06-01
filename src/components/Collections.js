@@ -1,6 +1,11 @@
 import React from "react"
 import { Link } from "gatsby";
 
+const DLink = (props) => {
+    if (props.disabled) return props.children;
+    return <Link {...props}/>;
+}
+
 export default ({collections}) => {
     // const product_image_constrain_width = 346;
     // const product_image_constrain_height = 346;
@@ -18,7 +23,7 @@ export default ({collections}) => {
                         collection = collection.node;
                         return (
                             <div key={collection.id} class="product-list-thumb crop-to-square under_image">
-                                <Link class="product-list-link" title={`View ${collection.name}`} to={collection.url}>
+                                <DLink disabled={collection.disabled} class="product-list-link" title={`View ${collection.name}`} to={collection.url}>
                                 <div class="product-list-thumb-container">
                                     <figure class="product-list-image-container">
                                     <div class="image-wrapper">
@@ -35,7 +40,7 @@ export default ({collections}) => {
                                     <div class="product-list-thumb-name">{ collection.name }</div>
                                     </div>
                                 </div>
-                                </Link>
+                                </DLink>
                             </div>
                     )})}
                 </div>

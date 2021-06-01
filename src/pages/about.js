@@ -25,13 +25,13 @@ const About = () => (
           `}</style>
       </Helmet>
       <SEO title="About" />
-        <p>shennü — for the celestial minimalist</p>
+        <p>6.persimmons — celestial objects</p>
 
-        <p>contemporary jewelry // limited edition // material fusion // a wearable-form study of nature & culture // small shop & studio, handmade in New York // 女 AAPI-owned</p>
+        <p>minimalist jewelry // limited edition // material fusion // a wearable-form study of nature & culture // small shop & studio, handmade in New York // 女 AAPI-owned</p>
         
         <p>“among forms”</p>
 
-        <p>IG: @shennu.co</p>
+        <p>IG: @6.persimmons</p>
         <br/>
         <p>Return Policy: if faulty/broken - orders can be replaced. Please leave a message via IG</p>
   </Layout>

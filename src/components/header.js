@@ -6,10 +6,12 @@ import React from "react"
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "product_images/nu_classics_round.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "product_images/6persimmons_icon.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+          fluid(srcSetBreakpoints: [ 150 ] ) {
+            src
+            srcSet
+            sizes
           }
         }
       }
@@ -21,6 +23,7 @@ const Header = ({ siteTitle }) => {
           <nav class="header-nav" role="navigation" aria-label="Main">
             <ul>
               <li><Link to="/">Shop</Link></li>
+              <li><Link to="/collections">Collections</Link></li>
               <li><Link to="/about">About</Link></li>
               <li>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
@@ -42,6 +45,7 @@ const Header = ({ siteTitle }) => {
         <nav class="header-nav mobile-nav" aria-label="Mobile Main" role="navigation">
           <ul>
               <li><Link to="/">Shop</Link></li>
+              <li><Link to="/collections">Collections</Link></li>
               <li><Link to="/about">About</Link></li>
             <li>
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" >

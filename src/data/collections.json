@@ -1,13 +1,10 @@
 [{
-    "name": "collection 1.0",
-    "url": "collections/collection-1.0",
-    "image": "../images/product_images/collection_1.jpg"
-}, {
-    "name": "capsule [upcoming]",
-    "url": "collections/capsule",
+    "name": "collection 2.0",
+    "url": "/collections/collection-2.0",
     "image": "../images/product_images/moongourd_4.jpg"
 }, {
     "name": "works on paper",
-    "url": "collections/works-on-paper",
+    "disabled": true,
+    "url": "/collections/works-on-paper",
     "image": "../images/product_images/floral_1.jpeg"
 }]
