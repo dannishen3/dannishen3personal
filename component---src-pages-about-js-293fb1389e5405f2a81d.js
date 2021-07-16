@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"3XHS":function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),r=n.n(t),s=n("Bl7J"),c=n("vrFN");a.default=function(){return r.a.createElement(s.a,null,r.a.createElement(c.a,{title:"Contact Me"}),r.a.createElement("p",{className:"centered-message"},"danni0shen@gmail.com"),r.a.createElement("p",{className:"empty-cart-message centered-message"},"Danni Shen is an independent curator and writer based in New York."))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-293fb1389e5405f2a81d.js.map

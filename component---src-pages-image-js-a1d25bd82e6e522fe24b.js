@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{224:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),c=(t(37),t(219)),i=t(218);n.default=function(){return r.a.createElement(c.a,null,r.a.createElement(i.a,{title:"Shopping Cart"}))}}}]);
-//# sourceMappingURL=component---src-pages-image-js-a1d25bd82e6e522fe24b.js.map

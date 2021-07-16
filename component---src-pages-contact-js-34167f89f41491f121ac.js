@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{224:function(e,a,t){"use strict";t.r(a);var n=t(0),c=t.n(n),l=(t(17),t(219)),s=t(218);a.default=function(){return c.a.createElement(l.a,null,c.a.createElement(s.a,{title:"Contact Me"}),c.a.createElement("h1",{class:"page-title has-dash"},"Contact"),c.a.createElement("p",{class:"empty-cart-message centered-message"},c.a.createElement("a",{href:"mailto:someone@example.com?Subject=Hello%20again",target:"_top"},"Send Mail")))}}}]);
-//# sourceMappingURL=component---src-pages-contact-js-34167f89f41491f121ac.js.map

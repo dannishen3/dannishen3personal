@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{226:function(e,t,a){"use strict";a.r(t);var n=a(0),c=a.n(n),r=(a(17),a(219)),i=a(218),l=a(220);t.default=function(){return c.a.createElement(r.a,null,c.a.createElement(i.a,{title:"Page two"}),c.a.createElement(l.a,{id:8}))}}}]);
-//# sourceMappingURL=component---src-pages-product-eight-js-b73e4749f08f46c4fee5.js.map
