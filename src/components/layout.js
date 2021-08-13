@@ -51,7 +51,7 @@ const Layout = ({ children, bodyClass='', bodyId='', aside }) => {
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,700|Varela+Round"/>
       </Helmet>
       <aside aria-label="Announcement message" className="announcement-message">
-        <div className="wrapper announcement-message-text">free shipping on orders over 50USD</div>
+        <div className="wrapper announcement-message-text">free shipping on orders over 60USD</div>
         <button onClick={()=>{
           if (typeof window !== 'undefined') {
             window.SiteGlobalState.sawMessage = true;

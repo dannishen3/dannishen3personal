@@ -27,7 +27,7 @@ const About = () => (
       <SEO title="About" />
         <p>6.persimmons — celestial objects</p>
 
-        <p>minimalist jewelry // limited edition // material fusion // a wearable-form study of nature & culture // small shop & studio, handmade in New York // 女 AAPI-owned</p>
+        <p>minimalist jewelry // one of a kind // material fusion // a wearable-form study of nature & culture // small shop & studio, handmade in New York // 女 AAPI-owned</p>
         
         <p>“among forms”</p>
 

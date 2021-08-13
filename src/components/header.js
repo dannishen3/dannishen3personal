@@ -6,7 +6,7 @@ import React from "react"
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "product_images/6persimmons_icon.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "product_images/6persimmons_icon1.png" }) {
         childImageSharp {
           fluid(srcSetBreakpoints: [ 150 ] ) {
             src
