@@ -37,7 +37,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -r https://github.com/dannishen3/shop.git && gatsby clean"
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -r git@github.com:dannishen3/shop.git && gatsby clean"
   },
   "repository": {
     "type": "git",
